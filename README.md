@@ -1,2 +1,2 @@
 # Go-Projects
-Exercise go projects
+Exercise go projects (Easy SGG)
