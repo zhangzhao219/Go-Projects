@@ -9,6 +9,7 @@ import (
 	"strings"
 )
 
+// 完成对Customer的操作，包括增删改查
 type CustomerService struct {
 	// 存储当前的客户
 	Customers []model.Customer

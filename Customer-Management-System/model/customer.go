@@ -2,7 +2,7 @@ package model
 
 import "fmt"
 
-// 定义Customer结构体
+// 定义Customer结构体，表示一个客户信息
 type Customer struct {
 	Id     int
 	Name   string
@@ -12,7 +12,8 @@ type Customer struct {
 	Email  string
 }
 
-// 工厂模式返回Customer的结构体
+// 工厂模式返回Customer的结构体，在CustomerService里面使用
+// 感觉就是新建一个Customer的实例
 func NewCustomer(id int, name string, gender string, age int, phone string, email string) *Customer {
 	return &Customer{
 		Id:     id,
