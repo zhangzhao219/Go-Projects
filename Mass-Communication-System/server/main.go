@@ -35,6 +35,83 @@ func readPkg(conn net.Conn) (mes message.Message, err error) {
 	return
 }
 
+func writePkg(conn net.Conn, data []byte) (err error) {
+	// 先发送一个长度
+	var pkgLen = uint32(len(data))
+	var buf [4]byte
+	binary.BigEndian.PutUint32(buf[0:4], pkgLen)
+	//  发送长度
+	_, err = conn.Write(buf[:4])
+	if err != nil {
+		fmt.Println("conn.Write err=", err)
+		return
+	}
+
+	//发送data本身
+	n, err := conn.Write(data)
+	if n != int(pkgLen) || err != nil {
+		fmt.Println("conn.Write err=", err)
+		return
+	}
+	return
+}
+
+// 编写serverProcessLogin函数，专门处理登录的请求
+func serverProcessLogin(conn net.Conn, mes *message.Message) (err error) {
+	// 从mes中取出data，并反序列化
+	var loginMes message.LoginMes
+	err = json.Unmarshal([]byte(mes.Data), &loginMes)
+	if err != nil {
+		fmt.Println("json.Unmarshal error, err=", err)
+		return
+	}
+	// 先声明一个resMes
+	var resMes message.Message
+	resMes.Type = message.LoginResMesType
+	// 声明一个LoginResMes
+	var loginResMes message.LoginResMes
+	// 如果用户的id为100，密码为123456，认为合法，否则不合法
+	if loginMes.UserId == 100 && loginMes.UserPwd == "123456" {
+		//合法
+		loginResMes.Code = 200
+	} else {
+		//不合法
+		loginResMes.Code = 500
+		loginResMes.Error = "该用户不存在，请注册再使用..."
+	}
+	// 将loginResMes序列化
+	data, err := json.Marshal(loginResMes)
+	if err != nil {
+		fmt.Println("json.Marshal error, err=", err)
+		return
+	}
+	// 将data赋值给resMes
+	resMes.Data = string(data)
+	// 对resMes进行序列化，准备发送
+	data, err = json.Marshal(resMes)
+	if err != nil {
+		fmt.Println("json.Marshal error, err=", err)
+		return
+	}
+	// 发送data，封装到writePkg函数
+	err = writePkg(conn, data)
+	return
+}
+
+// 根据客户端发送消息种类不同，决定调用哪个函数来实现
+func serverProcessMes(conn net.Conn, mes *message.Message) (err error) {
+	switch mes.Type {
+	case message.LoginMesType:
+		// 处理登录的逻辑
+		err = serverProcessLogin(conn, mes)
+	case message.RegisterMesType:
+		// 处理注册的逻辑
+	default:
+		fmt.Println("消息类型不存在，无法处理")
+	}
+	return
+}
+
 func process(conn net.Conn) {
 	// 延时关闭连接
 	defer conn.Close()
@@ -51,7 +128,11 @@ func process(conn net.Conn) {
 				fmt.Println("readPkg(conn) err", err)
 			}
 		}
-		fmt.Println(mes)
+		// fmt.Println(mes)
+		err = serverProcessMes(conn, &mes)
+		if err != nil {
+			return
+		}
 	}
 
 }
