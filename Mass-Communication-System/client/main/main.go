@@ -1,10 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"Go-Projects/Mass-Communication-System/client/process"
+	"fmt"
+)
 
 // 定义两个变量，一个表示用户ID，一个表示用户密码
 var userId int
 var userPwd string
+var userName string
 
 func main() {
 
@@ -18,34 +22,33 @@ func main() {
 		fmt.Println("---------------   1 登录聊天室")
 		fmt.Println("---------------    2 注册用户")
 		fmt.Println("---------------    3 退出系统")
-		fmt.Println("请选择（1-3）：")
+		fmt.Println("请选择(1-3): ")
 		fmt.Scanln(&key)
 		switch key {
 		case 1:
 			fmt.Println("登录聊天室")
-			loop = false
+			fmt.Println("请输入用户ID")
+			fmt.Scanln(&userId)
+			fmt.Println("请输入用户密码")
+			fmt.Scanln(&userPwd)
+			// 完成登录
+			up := &process.UserProcess{}
+			up.Login(userId, userPwd)
 		case 2:
 			fmt.Println("注册用户")
+			fmt.Println("请输入注册用户的ID")
+			fmt.Scanln(&userId)
+			fmt.Println("请输入注册用户的密码")
+			fmt.Scanln(&userPwd)
+			fmt.Println("请输入注册用户的名称")
+			fmt.Scanln(&userName)
+			up := &process.UserProcess{}
+			up.Register(userId, userPwd, userName)
 		case 3:
 			fmt.Println("退出系统")
-			loop = false
+
 		default:
 			fmt.Println("输入有误，请重新输入")
 		}
-	}
-	if key == 1 {
-		fmt.Println("请输入用户ID")
-		fmt.Scanln(&userId)
-		fmt.Println("请输入用户密码")
-		fmt.Scanln(&userPwd)
-		// 先把登录的函数写在另外一个文件
-		login(userId, userPwd)
-		// if err != nil {
-		// 	fmt.Println("登录失败")
-		// } else {
-		// 	fmt.Println("登录成功")
-		// }
-	} else if key == 2 {
-		fmt.Println("进行用户注册的逻辑")
 	}
 }
