@@ -2,10 +2,18 @@ package message
 
 // 确定消息类型
 const (
-	LoginMesType       = "LoginMes"
-	LoginResMesType    = "LoginResMes"
-	RegisterMesType    = "RegisterMes"
-	RegisterResMesType = "RegisterResMes"
+	LoginMesType            = "LoginMes"
+	LoginResMesType         = "LoginResMes"
+	RegisterMesType         = "RegisterMes"
+	RegisterResMesType      = "RegisterResMes"
+	NotifyUserStatusMesType = "NotifyUserStatusMes"
+	SmsMesType              = "SmsMes"
+)
+
+const (
+	UserOnline = iota
+	Useroffline
+	UserBusyStatus
 )
 
 type Message struct {
@@ -21,8 +29,9 @@ type LoginMes struct {
 }
 
 type LoginResMes struct {
-	Code  int    `json:"code"`  // 返回的状态码 500 表示用户未注册，200 表示成功
-	Error string `json:"error"` // 返回错误信息
+	Code     int `json:"code"` // 返回的状态码 500 表示用户未注册，200 表示成功
+	UsersIds []int
+	Error    string `json:"error"` // 返回错误信息
 }
 
 type RegisterMes struct {
@@ -32,4 +41,15 @@ type RegisterMes struct {
 type RegisterResMes struct {
 	Code  int    `json:"code"`  // 返回的状态码 400 表示用户已经占用，200 表示注册成功
 	Error string `json:"error"` // 返回错误信息
+}
+
+// 配合服务器端推送通知
+type NotifyUserStatusMes struct {
+	UserId int `json:"userid"`
+	Status int `json:"status"`
+}
+
+type SmsMes struct {
+	Content string `json:"content"`
+	User
 }

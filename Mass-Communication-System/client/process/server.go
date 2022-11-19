@@ -1,7 +1,9 @@
 package process
 
 import (
+	"Go-Projects/Mass-Communication-System/common/message"
 	"Go-Projects/Mass-Communication-System/server/utils"
+	"encoding/json"
 	"fmt"
 	"net"
 	"os"
@@ -16,12 +18,17 @@ func ShowMenu() {
 	fmt.Println("---------------4 退出系统")
 	fmt.Println("请选择(1-4): ")
 	var key int
+	var content string
+	smsProcess := &SmsProecss{}
 	fmt.Scanln(&key)
 	switch key {
 	case 1:
-		fmt.Println("显示在线用户列表")
+		// fmt.Println("显示在线用户列表")
+		outputOnlineUser()
 	case 2:
-		fmt.Println("发送消息")
+		fmt.Println("请输入你想对大家说的话")
+		fmt.Scanln(&content)
+		smsProcess.SendGroupSms(content)
 	case 3:
 		fmt.Println("信息列表")
 	case 4:
@@ -45,6 +52,18 @@ func serverProcessMes(conn net.Conn) {
 			return
 		}
 		// 如果读取到消息,下一步进行处理
-		fmt.Println(mes)
+		switch mes.Type {
+		case message.NotifyUserStatusMesType:
+			var notifyUserStatusMes message.NotifyUserStatusMes
+			err = json.Unmarshal([]byte(mes.Data), &notifyUserStatusMes)
+			if err != nil {
+				fmt.Println("json.Unmarshal err=", err)
+			}
+			updateUserStatus(&notifyUserStatusMes)
+		case message.SmsMesType:
+			outputGroupMes(&mes)
+		default:
+			fmt.Println("服务器端返回未知消息")
+		}
 	}
 }

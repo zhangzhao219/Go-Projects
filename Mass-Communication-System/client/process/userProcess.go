@@ -1,6 +1,7 @@
 package process
 
 import (
+	"Go-Projects/Mass-Communication-System/client/model"
 	"Go-Projects/Mass-Communication-System/common/message"
 	"Go-Projects/Mass-Communication-System/server/utils"
 	"encoding/binary"
@@ -9,6 +10,8 @@ import (
 	"net"
 	"os"
 )
+
+var CurUser model.CurUser
 
 type UserProcess struct {
 }
@@ -75,6 +78,19 @@ func (up *UserProcess) Login(userId int, userPwd string) (err error) {
 	var loginResMes message.LoginResMes
 	err = json.Unmarshal([]byte(mes.Data), &loginResMes)
 	if loginResMes.Code == 200 {
+		// 显示当前在线用户列表
+		CurUser.Conn = conn
+		CurUser.UserId = userId
+		CurUser.UserStatus = message.UserOnline
+		fmt.Println("当前在线用户列表如下：")
+		for _, v := range loginResMes.UsersIds {
+			fmt.Println("用户id,\t", v)
+			user := &message.User{
+				UserId:     v,
+				UserStatus: message.UserOnline,
+			}
+			onlineUsers[v] = user
+		}
 		// 显示登录成功后的菜单（循环显示）
 		// 在客户端启动一个协程，保持和服务器端的通讯
 		go serverProcessMes(conn)

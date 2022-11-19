@@ -1,6 +1,7 @@
 package model
 
 import (
+	"Go-Projects/Mass-Communication-System/common/message"
 	"encoding/json"
 	"fmt"
 
@@ -56,6 +57,28 @@ func (ud *UserDao) Login(userId int, userPwd string) (user *User, err error) {
 	}
 	if user.UserPwd != userPwd {
 		err = ERROR_USER_PWD
+		return
+	}
+	return
+}
+
+// 注册
+func (ud *UserDao) Register(user *message.User) (err error) {
+	conn := ud.pool.Get()
+	defer conn.Close()
+	_, err = ud.getUserById(conn, user.UserId)
+	if err == nil {
+		err = ERROR_USER_EXISTS
+		return
+	}
+	// 说明该用户还没有注册过，则可以完成注册
+	data, err := json.Marshal(user)
+	if err != nil {
+		return
+	}
+	_, err = conn.Do("HSET", "users", user.UserId, string(data))
+	if err != nil {
+		fmt.Println("保存注册用户错误，err=", err)
 		return
 	}
 	return
