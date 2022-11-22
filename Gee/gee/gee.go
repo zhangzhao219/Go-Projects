@@ -121,3 +121,9 @@ func (group *RouterGroup) Static(relativePath string, root string) {
 	// Register GET handlers
 	group.GET(urlPattern, handler)
 }
+
+func Default() *Engine {
+	engine := New()
+	engine.Use(Logger(), Recovery())
+	return engine
+}
