@@ -22,6 +22,7 @@ type Context struct {
 	// 中间件
 	handlers []HandlerFunc
 	index    int
+	engine   *Engine
 }
 
 func (c *Context) Param(key string) string {
@@ -98,8 +99,10 @@ func (c *Context) Data(code int, data []byte) {
 }
 
 // 构造HTML类型的响应
-func (c *Context) HTML(code int, html string) {
+func (c *Context) HTML(code int, name string, data interface{}) {
 	c.SetHeader("Content-Type", "text/html")
 	c.Status(code)
-	c.Writer.Write([]byte(html))
+	if err := c.engine.htmlTemplates.ExecuteTemplate(c.Writer, name, data); err != nil {
+		c.Fail(500, err.Error())
+	}
 }
