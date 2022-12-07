@@ -30,3 +30,10 @@ func TestRemoveNthFromEnd(t *testing.T) {
 	result := printList(head)
 	t.Log(result)
 }
+
+func TestReverseList(t *testing.T) {
+	head := createlist([]int{1, 2, 3, 4, 5, 6})
+	head = reverseList(head)
+	result := printList(head)
+	t.Log(result)
+}
