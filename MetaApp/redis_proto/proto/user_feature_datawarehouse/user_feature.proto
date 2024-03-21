@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package user_feature_datawarehouse;
+option go_package = "/user_feature";
+
+message UserFeatureCache{
+  repeated string clickList = 1;
+  repeated string clickTimeList = 2;
+  repeated string playList = 3;
+  repeated string playTimeList = 4;
+  repeated string playListT1 = 5;
+  repeated string playTimeListT1 = 6;
+  map<string, int64>    playIdx = 7;
+}

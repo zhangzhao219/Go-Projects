@@ -1,0 +1,374 @@
+2023-04-07 15:57:13	
+time="2023-04-07T15:57:13+08:00" level=info msg="cron: entry 17 spec (13/30 * * * * *) name ads_smooth_pacing_ptr success" source="cron.go:41"
+2023-04-07 15:57:13	
+time="2023-04-07T15:57:13+08:00" level=info msg="update ptrMap len : 2888" source="ads_smooth_pacing_ptr.go:42"
+2023-04-07 15:57:13	
+time="2023-04-07T15:57:13+08:00" level=info msg="loadSmoothPacingPtr time consuming : 9" source="ads_smooth_pacing_ptr.go:25"
+2023-04-07 15:57:13	
+time="2023-04-07T15:57:13+08:00" level=info msg="cron: run [now 2023-04-07 15:57:13.001144666 +0800 CST entry 17 next 2023-04-07 15:57:43 +0800 CST entryName ads_smooth_pacing_ptr]" source="package_init.go:68"
+2023-04-07 15:57:13	
+time="2023-04-07T15:57:13+08:00" level=info msg="cron: wake [now 2023-04-07 15:57:13.001144666 +0800 CST]" source="package_init.go:68"
+2023-04-07 15:57:10	
+time="2023-04-07T15:57:10+08:00" level=info msg="cron: entry 18 spec (10/30 * * * * *) name ads_running_pool_updater success" source="cron.go:41"
+2023-04-07 15:57:10	
+time="2023-04-07T15:57:10+08:00" level=info msg="loadAdRunningPool sceneStr : 5_1, uidRunningPoolSet len : 0 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 15:57:10	
+time="2023-04-07T15:57:10+08:00" level=info msg="loadAdRunningPool sceneStr : 5_0, uidRunningPoolSet len : 0 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 15:57:10	
+time="2023-04-07T15:57:10+08:00" level=info msg="loadAdRunningPool sceneStr : 3_2, uidRunningPoolSet len : 1 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 15:57:10	
+time="2023-04-07T15:57:10+08:00" level=info msg="loadAdRunningPool sceneStr : 3_1, uidRunningPoolSet len : 1 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 15:57:10	
+time="2023-04-07T15:57:10+08:00" level=info msg="loadAdRunningPool sceneStr : 3_0, uidRunningPoolSet len : 1 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 15:57:10	
+time="2023-04-07T15:57:10+08:00" level=info msg="loadAdRunningPool sceneStr : 1_0, uidRunningPoolSet len : 1 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 15:57:10	
+time="2023-04-07T15:57:10+08:00" level=info msg="loadAdRunningPool sceneStr : 0_2, uidRunningPoolSet len : 6 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 15:57:10	
+time="2023-04-07T15:57:10+08:00" level=info msg="loadAdRunningPool sceneStr : 0_1, uidRunningPoolSet len : 6 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 15:57:10	
+time="2023-04-07T15:57:10+08:00" level=info msg="cron: run [now 2023-04-07 15:57:10.000780629 +0800 CST entry 18 next 2023-04-07 15:57:40 +0800 CST entryName ads_running_pool_updater]" source="package_init.go:68"
+2023-04-07 15:57:10	
+time="2023-04-07T15:57:10+08:00" level=info msg="cron: wake [now 2023-04-07 15:57:10.000780629 +0800 CST]" source="package_init.go:68"
+2023-04-07 15:57:03	
+time="2023-04-07T15:57:03+08:00" level=info msg="cron: entry 23 spec (3/30 * * * * *) name ads_realtime_show_count_stat_updater success" source="cron.go:41"
+2023-04-07 15:57:03	
+time="2023-04-07T15:57:03+08:00" level=info msg="load adIdeaRealTimeShowCountMap len : 4, adPlanRealTimeShowCountMap len : 1, adGroupRealTimeShowCountMap len : 1, adUserRealTimeShowCountMap len : 1" source="ads_realtime_show_count_stat.go:56"
+2023-04-07 15:57:03	
+time="2023-04-07T15:57:03+08:00" level=info msg="data stat realtime version : 20230119" source="ads_realtime_show_count_stat.go:27"
+2023-04-07 15:57:03	
+time="2023-04-07T15:57:03+08:00" level=info msg="cron: run [now 2023-04-07 15:57:03.000379026 +0800 CST entry 23 next 2023-04-07 15:57:33 +0800 CST entryName ads_realtime_show_count_stat_updater]" source="package_init.go:68"
+2023-04-07 15:57:03	
+time="2023-04-07T15:57:03+08:00" level=info msg="cron: wake [now 2023-04-07 15:57:03.000379026 +0800 CST]" source="package_init.go:68"
+2023-04-07 15:57:02	
+time="2023-04-07T15:57:02+08:00" level=info msg="cron: entry 24 spec (2 */1 * * * *) name ads_predict_max_show_data_updater success" source="cron.go:41"
+2023-04-07 15:57:02	
+time="2023-04-07T15:57:02+08:00" level=info msg="adPredictShowDataSetMap len is : 0" source="ads_predict_show_data.go:41"
+2023-04-07 15:57:02	
+time="2023-04-07T15:57:02+08:00" level=info msg="cron: run [now 2023-04-07 15:57:02.000814691 +0800 CST entry 24 next 2023-04-07 15:58:02 +0800 CST entryName ads_predict_max_show_data_updater]" source="package_init.go:68"
+2023-04-07 15:57:02	
+time="2023-04-07T15:57:02+08:00" level=info msg="cron: wake [now 2023-04-07 15:57:02.000814691 +0800 CST]" source="package_init.go:68"
+2023-04-07 15:57:00	
+time="2023-04-07T15:57:00+08:00" level=info msg="cron: entry 1 spec (0 7/10 * * * *) name ab_config_updater success" source="cron.go:41"
+2023-04-07 15:57:00	
+time="2023-04-07T15:57:00+08:00" level=info msg="cron: entry 19 spec (0 2/5 * * * *) name ads_version_config_updater success" source="cron.go:41"
+2023-04-07 15:57:00	
+time="2023-04-07T15:57:00+08:00" level=info msg="loadAdVersionConfigresult :20220803003013; traceId: []; " source="ads_version_config.go:41"
+2023-04-07 15:57:00	
+time="2023-04-07T15:57:00+08:00" level=info msg="cron: run [now 2023-04-07 15:57:00.00123285 +0800 CST entry 19 next 2023-04-07 16:02:00 +0800 CST entryName ads_version_config_updater]" source="package_init.go:68"
+2023-04-07 15:57:00	
+time="2023-04-07T15:57:00+08:00" level=info msg="cron: run [now 2023-04-07 15:57:00.00123285 +0800 CST entry 1 next 2023-04-07 16:07:00 +0800 CST entryName ab_config_updater]" source="package_init.go:68"
+2023-04-07 15:57:00	
+time="2023-04-07T15:57:00+08:00" level=info msg="cron: wake [now 2023-04-07 15:57:00.00123285 +0800 CST]" source="package_init.go:68"
+2023-04-07 15:56:46	
+time="2023-04-07T15:56:46+08:00" level=info msg="cron: entry 25 spec (46 */1 * * * *) name ads_that_day_new_ads_updater success" source="cron.go:41"
+2023-04-07 15:56:46	
+time="2023-04-07T15:56:46+08:00" level=info msg="ad delivery type : 5, that day new ads len : 0" source="that_day_new_ads.go:34"
+2023-04-07 15:56:46	
+time="2023-04-07T15:56:46+08:00" level=info msg="ad delivery type : 3, that day new ads len : 0" source="that_day_new_ads.go:34"
+2023-04-07 15:56:46	
+time="2023-04-07T15:56:46+08:00" level=info msg="ad delivery type : 1, that day new ads len : 0" source="that_day_new_ads.go:34"
+2023-04-07 15:56:46	
+time="2023-04-07T15:56:46+08:00" level=info msg="ad delivery type : 0, that day new ads len : 0" source="that_day_new_ads.go:34"
+2023-04-07 15:56:46	
+time="2023-04-07T15:56:46+08:00" level=info msg="cron: run [now 2023-04-07 15:56:46.000424294 +0800 CST entry 25 next 2023-04-07 15:57:46 +0800 CST entryName ads_that_day_new_ads_updater]" source="package_init.go:68"
+2023-04-07 15:56:46	
+time="2023-04-07T15:56:46+08:00" level=info msg="cron: wake [now 2023-04-07 15:56:46.000424294 +0800 CST]" source="package_init.go:68"
+2023-04-07 15:56:43	
+time="2023-04-07T15:56:43+08:00" level=info msg="cron: entry 17 spec (13/30 * * * * *) name ads_smooth_pacing_ptr success" source="cron.go:41"
+2023-04-07 15:56:43	
+time="2023-04-07T15:56:43+08:00" level=info msg="update ptrMap len : 2888" source="ads_smooth_pacing_ptr.go:42"
+2023-04-07 15:56:43	
+time="2023-04-07T15:56:43+08:00" level=info msg="loadSmoothPacingPtr time consuming : 9" source="ads_smooth_pacing_ptr.go:25"
+2023-04-07 15:56:43	
+time="2023-04-07T15:56:43+08:00" level=info msg="cron: run [now 2023-04-07 15:56:43.000133574 +0800 CST entry 17 next 2023-04-07 15:57:13 +0800 CST entryName ads_smooth_pacing_ptr]" source="package_init.go:68"
+2023-04-07 15:56:43	
+time="2023-04-07T15:56:43+08:00" level=info msg="cron: wake [now 2023-04-07 15:56:43.000133574 +0800 CST]" source="package_init.go:68"
+2023-04-07 15:56:40	
+time="2023-04-07T15:56:40+08:00" level=info msg="cron: entry 18 spec (10/30 * * * * *) name ads_running_pool_updater success" source="cron.go:41"
+2023-04-07 15:56:40	
+time="2023-04-07T15:56:40+08:00" level=info msg="loadAdRunningPool sceneStr : 5_1, uidRunningPoolSet len : 0 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 15:56:40	
+time="2023-04-07T15:56:40+08:00" level=info msg="loadAdRunningPool sceneStr : 5_0, uidRunningPoolSet len : 0 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 15:56:40	
+time="2023-04-07T15:56:40+08:00" level=info msg="loadAdRunningPool sceneStr : 3_2, uidRunningPoolSet len : 1 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 15:56:40	
+time="2023-04-07T15:56:40+08:00" level=info msg="loadAdRunningPool sceneStr : 3_1, uidRunningPoolSet len : 1 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 15:56:40	
+time="2023-04-07T15:56:40+08:00" level=info msg="loadAdRunningPool sceneStr : 3_0, uidRunningPoolSet len : 1 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 15:56:40	
+time="2023-04-07T15:56:40+08:00" level=info msg="loadAdRunningPool sceneStr : 1_0, uidRunningPoolSet len : 1 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 15:56:40	
+time="2023-04-07T15:56:40+08:00" level=info msg="loadAdRunningPool sceneStr : 0_2, uidRunningPoolSet len : 6 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 15:56:40	
+time="2023-04-07T15:56:40+08:00" level=info msg="loadAdRunningPool sceneStr : 0_1, uidRunningPoolSet len : 6 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 15:56:40	
+time="2023-04-07T15:56:40+08:00" level=info msg="cron: run [now 2023-04-07 15:56:40.0001606 +0800 CST entry 18 next 2023-04-07 15:57:10 +0800 CST entryName ads_running_pool_updater]" source="package_init.go:68"
+2023-04-07 15:56:40	
+time="2023-04-07T15:56:40+08:00" level=info msg="cron: wake [now 2023-04-07 15:56:40.0001606 +0800 CST]" source="package_init.go:68"
+2023-04-07 15:56:33	
+time="2023-04-07T15:56:33+08:00" level=info msg="cron: entry 23 spec (3/30 * * * * *) name ads_realtime_show_count_stat_updater success" source="cron.go:41"
+2023-04-07 15:56:33	
+time="2023-04-07T15:56:33+08:00" level=info msg="load adIdeaRealTimeShowCountMap len : 4, adPlanRealTimeShowCountMap len : 1, adGroupRealTimeShowCountMap len : 1, adUserRealTimeShowCountMap len : 1" source="ads_realtime_show_count_stat.go:56"
+2023-04-07 15:56:33	
+time="2023-04-07T15:56:33+08:00" level=info msg="data stat realtime version : 20230119" source="ads_realtime_show_count_stat.go:27"
+2023-04-07 15:56:33	
+time="2023-04-07T15:56:33+08:00" level=info msg="cron: run [now 2023-04-07 15:56:33.000665204 +0800 CST entry 23 next 2023-04-07 15:57:03 +0800 CST entryName ads_realtime_show_count_stat_updater]" source="package_init.go:68"
+2023-04-07 15:56:33	
+time="2023-04-07T15:56:33+08:00" level=info msg="cron: wake [now 2023-04-07 15:56:33.000665204 +0800 CST]" source="package_init.go:68"
+2023-04-07 15:56:24	
+time="2023-04-07T15:56:24+08:00" level=info msg="cron: entry 6 spec (0 6/10 * * * *) name ad_item_feature_fid_updater success" source="cron.go:41"
+2023-04-07 15:56:13	
+time="2023-04-07T15:56:13+08:00" level=info msg="cron: entry 17 spec (13/30 * * * * *) name ads_smooth_pacing_ptr success" source="cron.go:41"
+2023-04-07 15:56:13	
+time="2023-04-07T15:56:13+08:00" level=info msg="update ptrMap len : 2888" source="ads_smooth_pacing_ptr.go:42"
+2023-04-07 15:56:13	
+time="2023-04-07T15:56:13+08:00" level=info msg="loadSmoothPacingPtr time consuming : 11" source="ads_smooth_pacing_ptr.go:25"
+2023-04-07 15:56:13	
+time="2023-04-07T15:56:13+08:00" level=info msg="cron: run [now 2023-04-07 15:56:13.000521592 +0800 CST entry 17 next 2023-04-07 15:56:43 +0800 CST entryName ads_smooth_pacing_ptr]" source="package_init.go:68"
+2023-04-07 15:56:13	
+time="2023-04-07T15:56:13+08:00" level=info msg="cron: wake [now 2023-04-07 15:56:13.000521592 +0800 CST]" source="package_init.go:68"
+2023-04-07 15:56:10	
+time="2023-04-07T15:56:10+08:00" level=info msg="cron: entry 18 spec (10/30 * * * * *) name ads_running_pool_updater success" source="cron.go:41"
+2023-04-07 15:56:10	
+time="2023-04-07T15:56:10+08:00" level=info msg="loadAdRunningPool sceneStr : 5_1, uidRunningPoolSet len : 0 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 15:56:10	
+time="2023-04-07T15:56:10+08:00" level=info msg="loadAdRunningPool sceneStr : 5_0, uidRunningPoolSet len : 0 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 15:56:10	
+time="2023-04-07T15:56:10+08:00" level=info msg="loadAdRunningPool sceneStr : 3_2, uidRunningPoolSet len : 1 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 15:56:10	
+time="2023-04-07T15:56:10+08:00" level=info msg="loadAdRunningPool sceneStr : 3_1, uidRunningPoolSet len : 1 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 15:56:10	
+time="2023-04-07T15:56:10+08:00" level=info msg="loadAdRunningPool sceneStr : 3_0, uidRunningPoolSet len : 1 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 15:56:10	
+time="2023-04-07T15:56:10+08:00" level=info msg="loadAdRunningPool sceneStr : 1_0, uidRunningPoolSet len : 1 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 15:56:10	
+time="2023-04-07T15:56:10+08:00" level=info msg="loadAdRunningPool sceneStr : 0_2, uidRunningPoolSet len : 6 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 15:56:10	
+time="2023-04-07T15:56:10+08:00" level=info msg="loadAdRunningPool sceneStr : 0_1, uidRunningPoolSet len : 6 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 15:56:10	
+time="2023-04-07T15:56:10+08:00" level=info msg="cron: run [now 2023-04-07 15:56:10.000651621 +0800 CST entry 18 next 2023-04-07 15:56:40 +0800 CST entryName ads_running_pool_updater]" source="package_init.go:68"
+2023-04-07 15:56:10	
+time="2023-04-07T15:56:10+08:00" level=info msg="cron: wake [now 2023-04-07 15:56:10.000651621 +0800 CST]" source="package_init.go:68"
+2023-04-07 15:56:03	
+time="2023-04-07T15:56:03+08:00" level=info msg="cron: entry 23 spec (3/30 * * * * *) name ads_realtime_show_count_stat_updater success" source="cron.go:41"
+2023-04-07 15:56:03	
+time="2023-04-07T15:56:03+08:00" level=info msg="load adIdeaRealTimeShowCountMap len : 4, adPlanRealTimeShowCountMap len : 1, adGroupRealTimeShowCountMap len : 1, adUserRealTimeShowCountMap len : 1" source="ads_realtime_show_count_stat.go:56"
+2023-04-07 15:56:03	
+time="2023-04-07T15:56:03+08:00" level=info msg="data stat realtime version : 20230119" source="ads_realtime_show_count_stat.go:27"
+2023-04-07 15:56:03	
+time="2023-04-07T15:56:03+08:00" level=info msg="cron: run [now 2023-04-07 15:56:03.000372037 +0800 CST entry 23 next 2023-04-07 15:56:33 +0800 CST entryName ads_realtime_show_count_stat_updater]" source="package_init.go:68"
+2023-04-07 15:56:03	
+time="2023-04-07T15:56:03+08:00" level=info msg="cron: wake [now 2023-04-07 15:56:03.000372037 +0800 CST]" source="package_init.go:68"
+2023-04-07 15:56:02	
+time="2023-04-07T15:56:02+08:00" level=info msg="cron: entry 24 spec (2 */1 * * * *) name ads_predict_max_show_data_updater success" source="cron.go:41"
+2023-04-07 15:56:02	
+time="2023-04-07T15:56:02+08:00" level=info msg="adPredictShowDataSetMap len is : 0" source="ads_predict_show_data.go:41"
+2023-04-07 15:56:02	
+time="2023-04-07T15:56:02+08:00" level=info msg="cron: run [now 2023-04-07 15:56:02.000773717 +0800 CST entry 24 next 2023-04-07 15:57:02 +0800 CST entryName ads_predict_max_show_data_updater]" source="package_init.go:68"
+2023-04-07 15:56:02	
+time="2023-04-07T15:56:02+08:00" level=info msg="cron: wake [now 2023-04-07 15:56:02.000773717 +0800 CST]" source="package_init.go:68"
+2023-04-07 15:56:00	
+time="2023-04-07T15:56:00+08:00" level=info msg="get ad bean list from redis, size: 2882" source="current_distributable_ad.go:41"
+2023-04-07 15:56:00	
+time="2023-04-07T15:56:00+08:00" level=info msg="loadCurrentDistributableAd time consuming : 92" source="current_distributable_ad.go:32"
+2023-04-07 15:56:00	
+time="2023-04-07T15:56:00+08:00" level=info msg="cron: entry 10 spec (0 1/5 * * * *) name ads_item_tag_updater success" source="cron.go:41"
+2023-04-07 15:56:00	
+time="2023-04-07T15:56:00+08:00" level=info msg="ad tags list size: 872" source="ads_item_tag.go:73"
+2023-04-07 15:56:00	
+time="2023-04-07T15:56:00+08:00" level=info msg="cron: run [now 2023-04-07 15:56:00.000667354 +0800 CST entry 10 next 2023-04-07 16:01:00 +0800 CST entryName ads_item_tag_updater]" source="package_init.go:68"
+2023-04-07 15:56:00	
+time="2023-04-07T15:56:00+08:00" level=info msg="cron: run [now 2023-04-07 15:56:00.000667354 +0800 CST entry 4 next 2023-04-07 16:06:00 +0800 CST entryName ads_item_recall_updater]" source="package_init.go:68"
+2023-04-07 15:56:00	
+time="2023-04-07T15:56:00+08:00" level=info msg="cron: run [now 2023-04-07 15:56:00.000667354 +0800 CST entry 6 next 2023-04-07 16:06:00 +0800 CST entryName ad_item_feature_fid_updater]" source="package_init.go:68"
+2023-04-07 15:56:00	
+time="2023-04-07T15:56:00+08:00" level=info msg="cron: wake [now 2023-04-07 15:56:00.000667354 +0800 CST]" source="package_init.go:68"
+2023-04-07 15:56:00	
+time="2023-04-07T15:56:00+08:00" level=info msg="cron: entry 4 spec (0 6/10 * * * *) name ads_item_recall_updater success" source="cron.go:41"
+2023-04-07 15:56:00	
+time="2023-04-07T15:56:00+08:00" level=info msg="loadUnitIndex key : 10_5_1, sdkItems len : 1" source="unit_id_index.go:64"
+2023-04-07 15:56:00	
+time="2023-04-07T15:56:00+08:00" level=info msg="loadUnitIndex key : 10_5_0, sdkItems len : 20" source="unit_id_index.go:64"
+2023-04-07 15:56:00	
+time="2023-04-07T15:56:00+08:00" level=info msg="loadUnitIndex key : 10_3_2, sdkItems len : 8" source="unit_id_index.go:64"
+2023-04-07 15:56:00	
+time="2023-04-07T15:56:00+08:00" level=info msg="loadUnitIndex key : 10_3_1, sdkItems len : 12" source="unit_id_index.go:64"
+2023-04-07 15:56:00	
+time="2023-04-07T15:56:00+08:00" level=info msg="loadUnitIndex key : 10_3_0, sdkItems len : 10" source="unit_id_index.go:64"
+2023-04-07 15:56:00	
+time="2023-04-07T15:56:00+08:00" level=info msg="loadUnitIndex key : 10_1_0, sdkItems len : 27" source="unit_id_index.go:64"
+2023-04-07 15:56:00	
+time="2023-04-07T15:56:00+08:00" level=info msg="loadUnitIndex key : 10_0_2, sdkItems len : 223" source="unit_id_index.go:64"
+2023-04-07 15:56:00	
+time="2023-04-07T15:56:00+08:00" level=info msg="loadUnitIndex key : 10_0_1, sdkItems len : 243" source="unit_id_index.go:64"
+2023-04-07 15:55:58	
+time="2023-04-07T15:55:58+08:00" level=info msg="step cost time:map[ad_sdk_filter_step:6 predict_cache_skip_step:3 sdk_post_processor:0 sdk_pre_processor:3 sdk_recall_step:0 user_feature_step:58 user_fid_step:0]" req_id=e3f19abfd0b74e7cbb181f0fffb48ff2 source="base_step.go:80"
+2023-04-07 15:55:58	
+time="2023-04-07T15:55:58+08:00" level=info msg="force multi content filter unitId : 100039831, before:100,after:100, filter_record:map[filter_predict_miscalculation:0 filter_rta:0]" req_id=e3f19abfd0b74e7cbb181f0fffb48ff2 source="ad_sdk_filter_step.go:127"
+2023-04-07 15:55:58	
+time="2023-04-07T15:55:58+08:00" level=info msg="force content filter unitId: 100039831 before:243,after:100, filter_record:map[filter_admittance:16 filter_app_installed:6 filter_consumption:85 filter_crowd_pack_target:36]" req_id=e3f19abfd0b74e7cbb181f0fffb48ff2 source="ad_sdk_filter_step.go:108"
+2023-04-07 15:55:58	
+time="2023-04-07T15:55:58+08:00" level=info msg="DSP AdsSortReq: ReqID: e3f19abfd0b74e7cbb181f0fffb48ff2 UUID: 1 OnlyId: b757e59514ec76f1 RsConfigArr: [reward_off] Page:  Size: 0appVersionCode: 2" source="dsp_sdk_sort.go:132"
+2023-04-07 15:55:57	
+time="2023-04-07T15:55:57+08:00" level=info msg="DSP AdsSortReq: ReqID: 0c4008d453b847118c13d26ac0ad158f UUID: 1 OnlyId: b757e59514ec76f1 RsConfigArr: [reward_off] Page:  Size: 0appVersionCode: 2" source="dsp_sdk_sort.go:132"
+2023-04-07 15:55:57	
+time="2023-04-07T15:55:57+08:00" level=info msg="step cost time:map[ad_sdk_filter_step:7 predict_cache_skip_step:2 sdk_post_processor:0 sdk_pre_processor:3 sdk_recall_step:0 user_feature_step:60 user_fid_step:0]" req_id=8780df3cf9064eab9ad24220d4eacfd2 source="base_step.go:80"
+2023-04-07 15:55:57	
+time="2023-04-07T15:55:57+08:00" level=info msg="force multi content filter unitId : 100039831, before:84,after:84, filter_record:map[filter_predict_miscalculation:0 filter_rta:0]" req_id=8780df3cf9064eab9ad24220d4eacfd2 source="ad_sdk_filter_step.go:127"
+2023-04-07 15:55:57	
+time="2023-04-07T15:55:57+08:00" level=info msg="force content filter unitId: 100039831 before:243,after:84, filter_record:map[filter_admittance:16 filter_app_installed:6 filter_consumption:101 filter_crowd_pack_target:36]" req_id=8780df3cf9064eab9ad24220d4eacfd2 source="ad_sdk_filter_step.go:108"
+2023-04-07 15:55:57	
+time="2023-04-07T15:55:57+08:00" level=info msg="DSP AdsSortReq: ReqID: 8780df3cf9064eab9ad24220d4eacfd2 UUID: 1 OnlyId: b757e59514ec76f1 RsConfigArr: [reward_off] Page:  Size: 0appVersionCode: 2" source="dsp_sdk_sort.go:132"
+2023-04-07 15:55:57	
+time="2023-04-07T15:55:57+08:00" level=info msg="step cost time:map[ad_sdk_filter_step:6 predict_cache_skip_step:8 sdk_post_processor:0 sdk_pre_processor:3 sdk_recall_step:0 user_feature_step:75 user_fid_step:0]" req_id=0c4008d453b847118c13d26ac0ad158f source="base_step.go:80"
+2023-04-07 15:55:57	
+time="2023-04-07T15:55:57+08:00" level=info msg="force multi content filter unitId : 100039831, before:95,after:95, filter_record:map[filter_predict_miscalculation:0 filter_rta:0]" req_id=0c4008d453b847118c13d26ac0ad158f source="ad_sdk_filter_step.go:127"
+2023-04-07 15:55:57	
+time="2023-04-07T15:55:57+08:00" level=info msg="force content filter unitId: 100039831 before:243,after:95, filter_record:map[filter_admittance:16 filter_app_installed:6 filter_consumption:90 filter_crowd_pack_target:36]" req_id=0c4008d453b847118c13d26ac0ad158f source="ad_sdk_filter_step.go:108"
+2023-04-07 15:55:56	
+time="2023-04-07T15:55:56+08:00" level=info msg="step cost time:map[ad_sdk_filter_step:6 export_item_step:3 item_fid_step:0 predict_cache_skip_step:2 sdk_classify_item_step:0 sdk_fill_game_item_fid_dispatcher_step:1 sdk_model_union_dispatcher_step:0 sdk_post_processor:0 sdk_post_ranking_step:0 sdk_pre_processor:3 sdk_pre_ranking_step:0 sdk_predict_dispatcher_step:6 sdk_recall_step:0 send_fid_step:1 send_model_score_step:0 show_budget_control_step:0 user_cross_item_feature_step:0 user_feature_step:58 user_fid_step:0 valuation_filter_step:0]" req_id=a47da640737241bf888dd204d60a27ab source="base_step.go:80"
+2023-04-07 15:55:56	
+time="2023-04-07T15:55:56+08:00" level=info msg="force content filter unitId: 100039831 before:78,after:78, filter_record:0" req_id=a47da640737241bf888dd204d60a27ab source="valuation_filter_step.go:55"
+2023-04-07 15:55:56	
+time="2023-04-07T15:55:56+08:00" level=info msg="after_model_union_cut_by_final_score_cut new:0 before:90 after:78 cut12 conf:0.150000" req_id=a47da640737241bf888dd204d60a27ab source="model_union.go:90"
+2023-04-07 15:55:56	
+time="2023-04-07T15:55:56+08:00" level=info msg="conn_pools: pool go-serving 10.29.169.14:8711 is empty, create new socket" source="node.go:67"
+2023-04-07 15:55:56	
+time="2023-04-07T15:55:56+08:00" level=info msg="force multi content filter unitId : 100039831, before:96,after:96, filter_record:map[filter_predict_miscalculation:0 filter_rta:0]" req_id=a47da640737241bf888dd204d60a27ab source="ad_sdk_filter_step.go:127"
+2023-04-07 15:55:56	
+time="2023-04-07T15:55:56+08:00" level=info msg="force content filter unitId: 100039831 before:243,after:96, filter_record:map[filter_admittance:16 filter_app_installed:6 filter_consumption:89 filter_crowd_pack_target:36]" req_id=a47da640737241bf888dd204d60a27ab source="ad_sdk_filter_step.go:108"
+2023-04-07 15:55:56	
+time="2023-04-07T15:55:56+08:00" level=info msg="DSP AdsSortReq: ReqID: a47da640737241bf888dd204d60a27ab UUID: 1 OnlyId: b757e59514ec76f1 RsConfigArr: [reward_off] Page:  Size: 0appVersionCode: 2" source="dsp_sdk_sort.go:132"
+2023-04-07 15:55:55	
+time="2023-04-07T15:55:55+08:00" level=info msg="step cost time:map[ad_sdk_filter_step:7 predict_cache_skip_step:5 sdk_post_processor:0 sdk_pre_processor:3 sdk_recall_step:0 user_feature_step:65 user_fid_step:0]" req_id=b4b25cca413d4730b07c05f69b4631cd source="base_step.go:80"
+2023-04-07 15:55:55	
+time="2023-04-07T15:55:55+08:00" level=info msg="force multi content filter unitId : 100039831, before:107,after:107, filter_record:map[filter_predict_miscalculation:0 filter_rta:0]" req_id=b4b25cca413d4730b07c05f69b4631cd source="ad_sdk_filter_step.go:127"
+2023-04-07 15:55:55	
+time="2023-04-07T15:55:55+08:00" level=info msg="force content filter unitId: 100039831 before:243,after:107, filter_record:map[filter_admittance:16 filter_app_installed:6 filter_consumption:78 filter_crowd_pack_target:36]" req_id=b4b25cca413d4730b07c05f69b4631cd source="ad_sdk_filter_step.go:108"
+2023-04-07 15:55:55	
+time="2023-04-07T15:55:55+08:00" level=info msg="DSP AdsSortReq: ReqID: b4b25cca413d4730b07c05f69b4631cd UUID: 1 OnlyId: b757e59514ec76f1 RsConfigArr: [reward_off] Page:  Size: 0appVersionCode: 2" source="dsp_sdk_sort.go:132"
+2023-04-07 15:55:55	
+time="2023-04-07T15:55:55+08:00" level=info msg="step cost time:map[ad_sdk_filter_step:7 predict_cache_skip_step:2 sdk_post_processor:0 sdk_pre_processor:3 sdk_recall_step:0 user_feature_step:62 user_fid_step:0]" req_id=b407d733bcec4d128243eb20cad7d13c source="base_step.go:80"
+2023-04-07 15:55:55	
+time="2023-04-07T15:55:55+08:00" level=info msg="force multi content filter unitId : 100039831, before:85,after:85, filter_record:map[filter_predict_miscalculation:0 filter_rta:0]" req_id=b407d733bcec4d128243eb20cad7d13c source="ad_sdk_filter_step.go:127"
+2023-04-07 15:55:55	
+time="2023-04-07T15:55:55+08:00" level=info msg="force content filter unitId: 100039831 before:243,after:85, filter_record:map[filter_admittance:16 filter_app_installed:6 filter_consumption:100 filter_crowd_pack_target:36]" req_id=b407d733bcec4d128243eb20cad7d13c source="ad_sdk_filter_step.go:108"
+2023-04-07 15:55:54	
+time="2023-04-07T15:55:54+08:00" level=info msg="DSP AdsSortReq: ReqID: b407d733bcec4d128243eb20cad7d13c UUID: 1 OnlyId: b757e59514ec76f1 RsConfigArr: [reward_off] Page:  Size: 0appVersionCode: 2" source="dsp_sdk_sort.go:132"
+2023-04-07 15:55:54	
+time="2023-04-07T15:55:54+08:00" level=info msg="step cost time:map[ad_sdk_filter_step:6 predict_cache_skip_step:3 sdk_post_processor:0 sdk_pre_processor:3 sdk_recall_step:0 user_feature_step:74 user_fid_step:0]" req_id=17f4a9192eb2415195b6e592c2132450 source="base_step.go:80"
+2023-04-07 15:55:54	
+time="2023-04-07T15:55:54+08:00" level=info msg="force multi content filter unitId : 100039831, before:89,after:89, filter_record:map[filter_predict_miscalculation:0 filter_rta:0]" req_id=17f4a9192eb2415195b6e592c2132450 source="ad_sdk_filter_step.go:127"
+2023-04-07 15:55:54	
+time="2023-04-07T15:55:54+08:00" level=info msg="force content filter unitId: 100039831 before:243,after:89, filter_record:map[filter_admittance:16 filter_app_installed:6 filter_consumption:96 filter_crowd_pack_target:36]" req_id=17f4a9192eb2415195b6e592c2132450 source="ad_sdk_filter_step.go:108"
+2023-04-07 15:55:54	
+time="2023-04-07T15:55:54+08:00" level=info msg="DSP AdsSortReq: ReqID: 17f4a9192eb2415195b6e592c2132450 UUID: 1 OnlyId: b757e59514ec76f1 RsConfigArr: [reward_off] Page:  Size: 0appVersionCode: 2" source="dsp_sdk_sort.go:132"
+2023-04-07 15:55:53	
+time="2023-04-07T15:55:53+08:00" level=info msg="step cost time:map[ad_sdk_filter_step:7 predict_cache_skip_step:2 sdk_post_processor:0 sdk_pre_processor:3 sdk_recall_step:0 user_feature_step:65 user_fid_step:0]" req_id=f8d78c666a5a4e3492f75c5db467659c source="base_step.go:80"
+2023-04-07 15:55:53	
+time="2023-04-07T15:55:53+08:00" level=info msg="force multi content filter unitId : 100039831, before:90,after:90, filter_record:map[filter_predict_miscalculation:0 filter_rta:0]" req_id=f8d78c666a5a4e3492f75c5db467659c source="ad_sdk_filter_step.go:127"
+2023-04-07 15:55:53	
+time="2023-04-07T15:55:53+08:00" level=info msg="force content filter unitId: 100039831 before:243,after:90, filter_record:map[filter_admittance:16 filter_app_installed:6 filter_consumption:95 filter_crowd_pack_target:36]" req_id=f8d78c666a5a4e3492f75c5db467659c source="ad_sdk_filter_step.go:108"
+2023-04-07 15:55:53	
+time="2023-04-07T15:55:53+08:00" level=info msg="DSP AdsSortReq: ReqID: f8d78c666a5a4e3492f75c5db467659c UUID: 1 OnlyId: b757e59514ec76f1 RsConfigArr: [reward_off] Page:  Size: 0appVersionCode: 2" source="dsp_sdk_sort.go:132"
+2023-04-07 15:55:52	
+time="2023-04-07T15:55:52+08:00" level=info msg="step cost time:map[ad_sdk_filter_step:7 predict_cache_skip_step:3 sdk_post_processor:0 sdk_pre_processor:3 sdk_recall_step:0 user_feature_step:79 user_fid_step:0]" req_id=06ac86b655014d1ebaa0e5ad98b2b597 source="base_step.go:80"
+2023-04-07 15:55:52	
+time="2023-04-07T15:55:52+08:00" level=info msg="force multi content filter unitId : 100039831, before:95,after:95, filter_record:map[filter_predict_miscalculation:0 filter_rta:0]" req_id=06ac86b655014d1ebaa0e5ad98b2b597 source="ad_sdk_filter_step.go:127"
+2023-04-07 15:55:52	
+time="2023-04-07T15:55:52+08:00" level=info msg="force content filter unitId: 100039831 before:243,after:95, filter_record:map[filter_admittance:16 filter_app_installed:6 filter_consumption:90 filter_crowd_pack_target:36]" req_id=06ac86b655014d1ebaa0e5ad98b2b597 source="ad_sdk_filter_step.go:108"
+2023-04-07 15:55:52	
+time="2023-04-07T15:55:52+08:00" level=info msg="DSP AdsSortReq: ReqID: 06ac86b655014d1ebaa0e5ad98b2b597 UUID: 1 OnlyId: b757e59514ec76f1 RsConfigArr: [reward_off] Page:  Size: 0appVersionCode: 2" source="dsp_sdk_sort.go:132"
+2023-04-07 15:55:52	
+time="2023-04-07T15:55:52+08:00" level=info msg="step cost time:map[ad_sdk_filter_step:7 export_item_step:2 item_fid_step:0 predict_cache_skip_step:1 sdk_classify_item_step:0 sdk_fill_game_item_fid_dispatcher_step:1 sdk_model_union_dispatcher_step:0 sdk_post_processor:0 sdk_post_ranking_step:0 sdk_pre_processor:3 sdk_pre_ranking_step:0 sdk_predict_dispatcher_step:7 sdk_recall_step:0 send_fid_step:1 send_model_score_step:0 show_budget_control_step:0 user_cross_item_feature_step:0 user_feature_step:74 user_fid_step:0 valuation_filter_step:0]" req_id=f1e25c3533104b979e391a716fd0fa38 source="base_step.go:80"
+2023-04-07 15:55:52	
+time="2023-04-07T15:55:52+08:00" level=info msg="force content filter unitId: 100039831 before:76,after:76, filter_record:0" req_id=f1e25c3533104b979e391a716fd0fa38 source="valuation_filter_step.go:55"
+2023-04-07 15:55:52	
+time="2023-04-07T15:55:52+08:00" level=info msg="after_model_union_cut_by_final_score_cut new:0 before:90 after:76 cut14 conf:0.150000" req_id=f1e25c3533104b979e391a716fd0fa38 source="model_union.go:90"
+2023-04-07 15:55:52	
+time="2023-04-07T15:55:52+08:00" level=info msg="force multi content filter unitId : 100039831, before:99,after:99, filter_record:map[filter_predict_miscalculation:0 filter_rta:0]" req_id=f1e25c3533104b979e391a716fd0fa38 source="ad_sdk_filter_step.go:127"
+2023-04-07 15:55:52	
+time="2023-04-07T15:55:52+08:00" level=info msg="force content filter unitId: 100039831 before:243,after:99, filter_record:map[filter_admittance:16 filter_app_installed:6 filter_consumption:86 filter_crowd_pack_target:36]" req_id=f1e25c3533104b979e391a716fd0fa38 source="ad_sdk_filter_step.go:108"
+2023-04-07 15:55:52	
+time="2023-04-07T15:55:52+08:00" level=info msg="DSP AdsSortReq: ReqID: f1e25c3533104b979e391a716fd0fa38 UUID: 1 OnlyId: b757e59514ec76f1 RsConfigArr: [reward_off] Page:  Size: 0appVersionCode: 2" source="dsp_sdk_sort.go:132"
+2023-04-07 15:55:51	
+time="2023-04-07T15:55:51+08:00" level=info msg="step cost time:map[ad_sdk_filter_step:7 predict_cache_skip_step:3 sdk_post_processor:0 sdk_pre_processor:2 sdk_recall_step:0 user_feature_step:83 user_fid_step:1]" req_id=1104d0cb64154efda4cccc8f8f22e45a source="base_step.go:80"
+2023-04-07 15:55:51	
+time="2023-04-07T15:55:51+08:00" level=info msg="force multi content filter unitId : 100039831, before:107,after:107, filter_record:map[filter_predict_miscalculation:0 filter_rta:0]" req_id=1104d0cb64154efda4cccc8f8f22e45a source="ad_sdk_filter_step.go:127"
+2023-04-07 15:55:51	
+time="2023-04-07T15:55:51+08:00" level=info msg="force content filter unitId: 100039831 before:243,after:107, filter_record:map[filter_admittance:16 filter_app_installed:6 filter_consumption:78 filter_crowd_pack_target:36]" req_id=1104d0cb64154efda4cccc8f8f22e45a source="ad_sdk_filter_step.go:108"
+2023-04-07 15:55:51	
+time="2023-04-07T15:55:51+08:00" level=info msg="DSP AdsSortReq: ReqID: 1104d0cb64154efda4cccc8f8f22e45a UUID: 1 OnlyId: b757e59514ec76f1 RsConfigArr: [reward_off] Page:  Size: 0appVersionCode: 2" source="dsp_sdk_sort.go:132"
+2023-04-07 15:55:50	
+time="2023-04-07T15:55:50+08:00" level=info msg="step cost time:map[ad_sdk_filter_step:7 predict_cache_skip_step:3 sdk_post_processor:0 sdk_pre_processor:2 sdk_recall_step:0 user_feature_step:100 user_fid_step:1]" req_id=b9aaf29cf8314588b57323aa1b50041e source="base_step.go:80"
+2023-04-07 15:55:50	
+time="2023-04-07T15:55:50+08:00" level=info msg="force multi content filter unitId : 100039831, before:93,after:93, filter_record:map[filter_predict_miscalculation:0 filter_rta:0]" req_id=b9aaf29cf8314588b57323aa1b50041e source="ad_sdk_filter_step.go:127"
+2023-04-07 15:55:50	
+time="2023-04-07T15:55:50+08:00" level=info msg="force content filter unitId: 100039831 before:243,after:93, filter_record:map[filter_admittance:16 filter_app_installed:6 filter_consumption:92 filter_crowd_pack_target:36]" req_id=b9aaf29cf8314588b57323aa1b50041e source="ad_sdk_filter_step.go:108"
+2023-04-07 15:55:50	
+time="2023-04-07T15:55:50+08:00" level=info msg="DSP AdsSortReq: ReqID: b9aaf29cf8314588b57323aa1b50041e UUID: 1 OnlyId: b757e59514ec76f1 RsConfigArr: [reward_off] Page:  Size: 0appVersionCode: 2" source="dsp_sdk_sort.go:132"
+2023-04-07 15:55:50	
+time="2023-04-07T15:55:50+08:00" level=info msg="step cost time:map[ad_sdk_filter_step:7 predict_cache_skip_step:3 sdk_post_processor:0 sdk_pre_processor:3 sdk_recall_step:0 user_feature_step:94 user_fid_step:0]" req_id=5230c0118b1a44d69a507e4cdde0f41c source="base_step.go:80"
+2023-04-07 15:55:50	
+time="2023-04-07T15:55:50+08:00" level=info msg="force multi content filter unitId : 100039831, before:86,after:86, filter_record:map[filter_predict_miscalculation:0 filter_rta:0]" req_id=5230c0118b1a44d69a507e4cdde0f41c source="ad_sdk_filter_step.go:127"
+2023-04-07 15:55:50	
+time="2023-04-07T15:55:50+08:00" level=info msg="force content filter unitId: 100039831 before:243,after:86, filter_record:map[filter_admittance:16 filter_app_installed:6 filter_consumption:99 filter_crowd_pack_target:36]" req_id=5230c0118b1a44d69a507e4cdde0f41c source="ad_sdk_filter_step.go:108"
+2023-04-07 15:55:50	
+time="2023-04-07T15:55:50+08:00" level=info msg="DSP AdsSortReq: ReqID: 5230c0118b1a44d69a507e4cdde0f41c UUID: 1 OnlyId: b757e59514ec76f1 RsConfigArr: [reward_off] Page:  Size: 0appVersionCode: 2" source="dsp_sdk_sort.go:132"
+2023-04-07 15:55:49	
+time="2023-04-07T15:55:49+08:00" level=info msg="step cost time:map[ad_sdk_filter_step:7 predict_cache_skip_step:3 sdk_post_processor:0 sdk_pre_processor:3 sdk_recall_step:0 user_feature_step:136 user_fid_step:0]" req_id=3579902ca02e4edd811011de3917fa4b source="base_step.go:80"
+2023-04-07 15:55:49	
+time="2023-04-07T15:55:49+08:00" level=info msg="force multi content filter unitId : 100039831, before:98,after:98, filter_record:map[filter_predict_miscalculation:0 filter_rta:0]" req_id=3579902ca02e4edd811011de3917fa4b source="ad_sdk_filter_step.go:127"
+2023-04-07 15:55:49	
+time="2023-04-07T15:55:49+08:00" level=info msg="force content filter unitId: 100039831 before:243,after:98, filter_record:map[filter_admittance:16 filter_app_installed:6 filter_consumption:87 filter_crowd_pack_target:36]" req_id=3579902ca02e4edd811011de3917fa4b source="ad_sdk_filter_step.go:108"
+2023-04-07 15:55:49	
+time="2023-04-07T15:55:49+08:00" level=info msg="DSP AdsSortReq: ReqID: 3579902ca02e4edd811011de3917fa4b UUID: 1 OnlyId: b757e59514ec76f1 RsConfigArr: [reward_off] Page:  Size: 0appVersionCode: 2" source="dsp_sdk_sort.go:132"
+2023-04-07 15:55:48	
+time="2023-04-07T15:55:48+08:00" level=info msg="step cost time:map[ad_sdk_filter_step:7 predict_cache_skip_step:2 sdk_post_processor:0 sdk_pre_processor:15 sdk_recall_step:0 user_feature_step:298 user_fid_step:0]" req_id=6ec2406553c04345a539292f5b9e552e source="base_step.go:80"
+2023-04-07 15:55:48	
+time="2023-04-07T15:55:48+08:00" level=info msg="force multi content filter unitId : 100039831, before:98,after:98, filter_record:map[filter_predict_miscalculation:0 filter_rta:0]" req_id=6ec2406553c04345a539292f5b9e552e source="ad_sdk_filter_step.go:127"
+2023-04-07 15:55:48	
+time="2023-04-07T15:55:48+08:00" level=info msg="force content filter unitId: 100039831 before:243,after:98, filter_record:map[filter_admittance:16 filter_app_installed:6 filter_consumption:87 filter_crowd_pack_target:36]" req_id=6ec2406553c04345a539292f5b9e552e source="ad_sdk_filter_step.go:108"
+2023-04-07 15:55:48	
+time="2023-04-07T15:55:48+08:00" level=info msg="DSP AdsSortReq: ReqID: 6ec2406553c04345a539292f5b9e552e UUID: 1 OnlyId: b757e59514ec76f1 RsConfigArr: [reward_off] Page:  Size: 0appVersionCode: 2" source="dsp_sdk_sort.go:132"
+2023-04-07 15:55:47	
+time="2023-04-07T15:55:47+08:00" level=info msg="step cost time:map[ad_sdk_filter_step:18 export_item_step:3 item_fid_step:0 predict_cache_skip_step:1 sdk_classify_item_step:0 sdk_fill_game_item_fid_dispatcher_step:1 sdk_model_union_dispatcher_step:1 sdk_post_processor:0 sdk_post_ranking_step:0 sdk_pre_processor:0 sdk_pre_ranking_step:1 sdk_predict_dispatcher_step:7 sdk_recall_step:0 send_fid_step:0 send_model_score_step:0 show_budget_control_step:0 user_cross_item_feature_step:0 user_feature_step:31 user_fid_step:0 valuation_filter_step:0]" req_id=a8a938ac6784473183fd1b2eafee595e source="base_step.go:80"
+2023-04-07 15:55:47	
+time="2023-04-07T15:55:47+08:00" level=info msg="force content filter unitId: 100039831 before:83,after:83, filter_record:0" req_id=a8a938ac6784473183fd1b2eafee595e source="valuation_filter_step.go:55"
+2023-04-07 15:55:47	
+time="2023-04-07T15:55:47+08:00" level=info msg="after_model_union_cut_by_final_score_cut new:0 before:101 after:83 cut18 conf:0.150000" req_id=a8a938ac6784473183fd1b2eafee595e source="model_union.go:90"
+2023-04-07 15:55:47	
+time="2023-04-07T15:55:47+08:00" level=info msg="conn_pools: pool go-serving 10.29.169.43:8711 is empty, create new socket" source="node.go:67"
+2023-04-07 15:55:47	
+time="2023-04-07T15:55:47+08:00" level=info msg="force multi content filter unitId : 100039831, before:104,after:104, filter_record:map[filter_predict_miscalculation:0 filter_rta:0]" req_id=a8a938ac6784473183fd1b2eafee595e source="ad_sdk_filter_step.go:127"
+2023-04-07 15:55:47	
+time="2023-04-07T15:55:47+08:00" level=info msg="force content filter unitId: 100039831 before:243,after:104, filter_record:map[filter_admittance:16 filter_app_installed:6 filter_consumption:81 filter_crowd_pack_target:36]" req_id=a8a938ac6784473183fd1b2eafee595e source="ad_sdk_filter_step.go:108"
+2023-04-07 15:55:47	
+time="2023-04-07T15:55:47+08:00" level=error msg="sdk pre processor get user feature err : sql_helper: bad Source [select uuid,\n       user_sex as UserSex,\n       user_age as UserAge,\n       user_active_day_30 as UserActiveDayLastMonth,\n       user_active_game_30 as UserPlayGameNumLastMonth,\n       user_launch_time as UserLaunchTime,\n       user_show_ad_3 as UserShowAdLast3Day,\n       user_click_ad_3 as UserClickAdLast3Day,\n       user_show_num_3 as UserShowAdNumLast3Day,\n       user_click_num_3 as UserClickAdNumLast3Day,\n       user_mon_ctr_sammo as UserMonCtrSammo,\n       user_week_ctr_sammo as UserWeekCtrSammo,\n       user_click_num_3_sammo as UserClickNum3Sammo,\n       user_show_num_3_sammo as UserShowNum3Sammo,\n       user_click_ad_3_sammo as UserClickAd3Sammo,\n       user_show_ad_3_sammo as UserShowAd3Sammo,\n       user_search_click_list as UserSearchClickList,\n       user_233_tag_1 as UserPlayGameTagLastDay,\n       user_233_tag_7 as UserPlayGameTagLastWeek,\n       user_233_c_tags_week_top as UserClickGameTagLastWeek,\n       user_233_category_1 as UserPlayGameCategoryLastDay,\n       user_233_category_7 as UserPlayGameCategoryLastWeek,\n       user_233_c_category_week_top as UserClickGameCategoryLastWeek\nfrom public.platform_ctr_model_user_features\nwhere uuid = $1]" source="sdk_pre_processor.go:36"
+2023-04-07 15:55:47	
+time="2023-04-07T15:55:47+08:00" level=error msg="sql_helper: bad Source [SELECT\n    aiid\n     ,pkg\n     ,datestring\n     ,recv_timestamp_step\n     ,bigvalue\nFROM rec_log.log_ad_video_aiid_show_v2_cnt\nwhere uuid = $1\n  and recv_timestamp_step >= $2\n;]" req_id=a8a938ac6784473183fd1b2eafee595e source="ad_video_recent_show.go:40"
+2023-04-07 15:55:47	
+time="2023-04-07T15:55:47+08:00" level=error msg="sql_helper: bad Source [SELECT\n     aiid_list\n     ,time_list\n     ,click_7d_list\nFROM rec_log.log_user_ad_video_recent_click_data\nwhere uuid = $1\n;]" req_id=a8a938ac6784473183fd1b2eafee595e source="ad_recent_click.go:51"
+2023-04-07 15:55:47	
+time="2023-04-07T15:55:47+08:00" level=error msg="sql_helper: bad Source [SELECT\n    *\nFROM (\n         SELECT\n             aiid\n              ,recv_timestamp_step\n              ,ROW_NUMBER() OVER (order by recv_timestamp_step desc ) as rn\n         FROM rec_log.log_ad_video_click_cnt\n         where uuid = $1\n           and recv_timestamp_step >= $2\n     ) t where rn <= 10\n;]" req_id=a8a938ac6784473183fd1b2eafee595e source="ad_recent_click.go:71"
+2023-04-07 15:55:47	
+time="2023-04-07T15:55:47+08:00" level=error msg="sql_helper: bad Source [SELECT\n    aiid\n     ,datestring\n     ,recv_timestamp_step\n     ,bigvalue\nFROM rec_log.log_ad_video_click_cnt\nwhere uuid = $1\n  and recv_timestamp_step >= $2\n;]" req_id=a8a938ac6784473183fd1b2eafee595e source="ad_recent_click.go:88"
+2023-04-07 15:55:47	
+time="2023-04-07T15:55:47+08:00" level=error msg="sql_helper: bad Source [select\n      packagename\n     ,recv_timestamp_step\nfrom (\n         select\n               kind\n              ,packagename\n              ,recv_timestamp_step\n              ,row_number () over(partition by kind,packagename order by recv_timestamp_step) as rn\n         from rec_log.log_ad_download_install_detail\n         where uuid = $1\n           and recv_timestamp_step >= $2 and kind = 'activate'\n    ) t1 where t1.rn = 1\n;]" req_id=a8a938ac6784473183fd1b2eafee595e source="ad_recent_activate.go:32"
+2023-04-07 15:55:47	
+time="2023-04-07T15:55:47+08:00" level=error msg="sql_helper: bad Source [select\n    *\nfrom rec_log.log_ad_activate_recent_data\nwhere uuid = $1\n;]" req_id=a8a938ac6784473183fd1b2eafee595e source="ad_recent_activate.go:55"
+2023-04-07 15:55:47	
+time="2023-04-07T15:55:47+08:00" level=error msg="sql_helper: bad Source [select sex, u_live_days_month, u_game_cnt_month, realnamestatus, play_time_box, date_string, u_judge_type, u_judge_type_v2, play_flag_1d, play_flag_3d, click_flag_1d, click_flag_3d, u_live_days_week, click_uv_day, click_uv_week, click_uv_month, play_new_cnt_day, play_new_cnt_week, play_new_cnt_month, new_game_avg_time_day, new_game_avg_time_week, new_game_avg_time_month, old_game_avg_time_day, old_game_avg_time_week , old_game_avg_time_month, game_avg_time_day, game_avg_time_week , game_avg_time_month from rec_info.user_feature_context where uid = $1]" req_id=a8a938ac6784473183fd1b2eafee595e source="user_feature.go:28"
+2023-04-07 15:55:47	
+time="2023-04-07T15:55:47+08:00" level=error msg="sql_helper: bad Source [SELECT\n    flag\nFROM rec_info.ad_video_user_group_data\nwhere uuid = $1\n]" req_id=a8a938ac6784473183fd1b2eafee595e source="ad_video_user_group.go:21"
+2023-04-07 15:55:47	
+time="2023-04-07T15:55:47+08:00" level=error msg="sql_helper: bad Source [select game_list, other_list from rec_log.log_user_tag_installed_list\nwhere uuid = $1;]" req_id=a8a938ac6784473183fd1b2eafee595e source="installed_list_tag_top30.go:19"
+2023-04-07 15:55:47	
+time="2023-04-07T15:55:47+08:00" level=error msg="sql_helper: bad Source [select\n    kind\n     ,unit_id\n     ,delivery_type\n     ,business_type\n     ,aiid_list\n     ,pkg_list\n     ,timestamp_list\nfrom rec_log.log_user_download_install_history_list\nwhere uuid = $1 ;]" req_id=a8a938ac6784473183fd1b2eafee595e source="ad_recent_download_install.go:44"
+2023-04-07 15:55:47	
+time="2023-04-07T15:55:47+08:00" level=error msg="sql_helper: bad Source [select\n    kind\n     ,unit_id\n     ,delivery_type\n     ,business_type\n     ,aiid\n     ,packagename\n     ,recv_timestamp_step\nfrom (\n         select\n             kind\n              ,unit_id\n              ,delivery_type\n              ,business_type\n              ,aiid\n              ,packagename\n              ,recv_timestamp_step\n              ,row_number () over(partition by kind order by recv_timestamp_step desc) as rn\n         from rec_log.log_ad_download_install_detail\n         where uuid = $1\n           and recv_timestamp_step >= $2\n    ) t1 where t1.rn = 1\n;]" req_id=a8a938ac6784473183fd1b2eafee595e source="ad_recent_download_install.go:69"
+2023-04-07 15:55:47	
+time="2023-04-07T15:55:47+08:00" level=error msg="sql_helper: bad Source [select packagename from rec_info.sugre_topk_holo\nwhere uuid = $1\nlimit $2;]" req_id=a8a938ac6784473183fd1b2eafee595e source="sugre_top30.go:18"
+2023-04-07 15:55:47	
+time="2023-04-07T15:55:47+08:00" level=info msg="DSP AdsSortReq: ReqID: a8a938ac6784473183fd1b2eafee595e UUID: 1 OnlyId: b757e59514ec76f1 RsConfigArr: [reward_off] Page:  Size: 0appVersionCode: 2" source="dsp_sdk_sort.go:132"

@@ -1,0 +1,448 @@
+2023-04-07 14:04:11	
+time="2023-04-07T14:04:11+08:00" level=info msg="cron: entry 23 spec (11/30 * * * * *) name ads_realtime_show_count_stat_updater success" source="cron.go:41"
+2023-04-07 14:04:11	
+time="2023-04-07T14:04:11+08:00" level=info msg="load adIdeaRealTimeShowCountMap len : 4, adPlanRealTimeShowCountMap len : 1, adGroupRealTimeShowCountMap len : 1, adUserRealTimeShowCountMap len : 1" source="ads_realtime_show_count_stat.go:56"
+2023-04-07 14:04:11	
+time="2023-04-07T14:04:11+08:00" level=info msg="data stat realtime version : 20230119" source="ads_realtime_show_count_stat.go:27"
+2023-04-07 14:04:11	
+time="2023-04-07T14:04:11+08:00" level=info msg="cron: run [now 2023-04-07 14:04:11.000926757 +0800 CST entry 23 next 2023-04-07 14:04:41 +0800 CST entryName ads_realtime_show_count_stat_updater]" source="package_init.go:68"
+2023-04-07 14:04:11	
+time="2023-04-07T14:04:11+08:00" level=info msg="cron: wake [now 2023-04-07 14:04:11.000926757 +0800 CST]" source="package_init.go:68"
+2023-04-07 14:04:05	
+time="2023-04-07T14:04:05+08:00" level=info msg="cron: entry 18 spec (5/30 * * * * *) name ads_running_pool_updater success" source="cron.go:41"
+2023-04-07 14:04:05	
+time="2023-04-07T14:04:05+08:00" level=info msg="loadAdRunningPool sceneStr : 5_1, uidRunningPoolSet len : 0 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 14:04:05	
+time="2023-04-07T14:04:05+08:00" level=info msg="loadAdRunningPool sceneStr : 5_0, uidRunningPoolSet len : 0 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 14:04:05	
+time="2023-04-07T14:04:05+08:00" level=info msg="loadAdRunningPool sceneStr : 3_2, uidRunningPoolSet len : 1 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 14:04:05	
+time="2023-04-07T14:04:05+08:00" level=info msg="loadAdRunningPool sceneStr : 3_1, uidRunningPoolSet len : 1 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 14:04:05	
+time="2023-04-07T14:04:05+08:00" level=info msg="loadAdRunningPool sceneStr : 3_0, uidRunningPoolSet len : 1 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 14:04:05	
+time="2023-04-07T14:04:05+08:00" level=info msg="loadAdRunningPool sceneStr : 1_0, uidRunningPoolSet len : 1 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 14:04:05	
+time="2023-04-07T14:04:05+08:00" level=info msg="loadAdRunningPool sceneStr : 0_2, uidRunningPoolSet len : 6 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 14:04:05	
+time="2023-04-07T14:04:05+08:00" level=info msg="loadAdRunningPool sceneStr : 0_1, uidRunningPoolSet len : 6 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 14:04:05	
+time="2023-04-07T14:04:05+08:00" level=info msg="cron: run [now 2023-04-07 14:04:05.000773238 +0800 CST entry 18 next 2023-04-07 14:04:35 +0800 CST entryName ads_running_pool_updater]" source="package_init.go:68"
+2023-04-07 14:04:05	
+time="2023-04-07T14:04:05+08:00" level=info msg="cron: wake [now 2023-04-07 14:04:05.000773238 +0800 CST]" source="package_init.go:68"
+2023-04-07 14:04:03	
+time="2023-04-07T14:04:03+08:00" level=info msg="cron: entry 17 spec (3/30 * * * * *) name ads_smooth_pacing_ptr success" source="cron.go:41"
+2023-04-07 14:04:03	
+time="2023-04-07T14:04:03+08:00" level=info msg="update ptrMap len : 2887" source="ads_smooth_pacing_ptr.go:42"
+2023-04-07 14:04:03	
+time="2023-04-07T14:04:03+08:00" level=info msg="loadSmoothPacingPtr time consuming : 9" source="ads_smooth_pacing_ptr.go:25"
+2023-04-07 14:04:03	
+time="2023-04-07T14:04:03+08:00" level=info msg="cron: run [now 2023-04-07 14:04:03.000769593 +0800 CST entry 17 next 2023-04-07 14:04:33 +0800 CST entryName ads_smooth_pacing_ptr]" source="package_init.go:68"
+2023-04-07 14:04:03	
+time="2023-04-07T14:04:03+08:00" level=info msg="cron: wake [now 2023-04-07 14:04:03.000769593 +0800 CST]" source="package_init.go:68"
+2023-04-07 14:03:52	
+time="2023-04-07T14:03:52+08:00" level=info msg="cron: entry 12 spec (52/60 3/5 * * * *) name ads_no_ad_strategy_updater success" source="cron.go:41"
+2023-04-07 14:03:52	
+time="2023-04-07T14:03:52+08:00" level=info msg="cron: run [now 2023-04-07 14:03:52.000410361 +0800 CST entry 12 next 2023-04-07 14:08:52 +0800 CST entryName ads_no_ad_strategy_updater]" source="package_init.go:68"
+2023-04-07 14:03:52	
+time="2023-04-07T14:03:52+08:00" level=info msg="cron: wake [now 2023-04-07 14:03:52.000410361 +0800 CST]" source="package_init.go:68"
+2023-04-07 14:03:41	
+time="2023-04-07T14:03:41+08:00" level=info msg="cron: entry 23 spec (11/30 * * * * *) name ads_realtime_show_count_stat_updater success" source="cron.go:41"
+2023-04-07 14:03:41	
+time="2023-04-07T14:03:41+08:00" level=info msg="load adIdeaRealTimeShowCountMap len : 4, adPlanRealTimeShowCountMap len : 1, adGroupRealTimeShowCountMap len : 1, adUserRealTimeShowCountMap len : 1" source="ads_realtime_show_count_stat.go:56"
+2023-04-07 14:03:41	
+time="2023-04-07T14:03:41+08:00" level=info msg="data stat realtime version : 20230119" source="ads_realtime_show_count_stat.go:27"
+2023-04-07 14:03:41	
+time="2023-04-07T14:03:41+08:00" level=info msg="cron: run [now 2023-04-07 14:03:41.000439745 +0800 CST entry 23 next 2023-04-07 14:04:11 +0800 CST entryName ads_realtime_show_count_stat_updater]" source="package_init.go:68"
+2023-04-07 14:03:41	
+time="2023-04-07T14:03:41+08:00" level=info msg="cron: wake [now 2023-04-07 14:03:41.000439745 +0800 CST]" source="package_init.go:68"
+2023-04-07 14:03:39	
+time="2023-04-07T14:03:39+08:00" level=info msg="cron: entry 25 spec (39 */1 * * * *) name ads_that_day_new_ads_updater success" source="cron.go:41"
+2023-04-07 14:03:39	
+time="2023-04-07T14:03:39+08:00" level=info msg="ad delivery type : 5, that day new ads len : 0" source="that_day_new_ads.go:34"
+2023-04-07 14:03:39	
+time="2023-04-07T14:03:39+08:00" level=info msg="ad delivery type : 3, that day new ads len : 0" source="that_day_new_ads.go:34"
+2023-04-07 14:03:39	
+time="2023-04-07T14:03:39+08:00" level=info msg="ad delivery type : 1, that day new ads len : 0" source="that_day_new_ads.go:34"
+2023-04-07 14:03:39	
+time="2023-04-07T14:03:39+08:00" level=info msg="ad delivery type : 0, that day new ads len : 0" source="that_day_new_ads.go:34"
+2023-04-07 14:03:39	
+time="2023-04-07T14:03:39+08:00" level=info msg="cron: run [now 2023-04-07 14:03:39.000341053 +0800 CST entry 25 next 2023-04-07 14:04:39 +0800 CST entryName ads_that_day_new_ads_updater]" source="package_init.go:68"
+2023-04-07 14:03:39	
+time="2023-04-07T14:03:39+08:00" level=info msg="cron: wake [now 2023-04-07 14:03:39.000341053 +0800 CST]" source="package_init.go:68"
+2023-04-07 14:03:35	
+time="2023-04-07T14:03:35+08:00" level=info msg="cron: entry 18 spec (5/30 * * * * *) name ads_running_pool_updater success" source="cron.go:41"
+2023-04-07 14:03:35	
+time="2023-04-07T14:03:35+08:00" level=info msg="loadAdRunningPool sceneStr : 5_1, uidRunningPoolSet len : 0 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 14:03:35	
+time="2023-04-07T14:03:35+08:00" level=info msg="loadAdRunningPool sceneStr : 5_0, uidRunningPoolSet len : 0 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 14:03:35	
+time="2023-04-07T14:03:35+08:00" level=info msg="loadAdRunningPool sceneStr : 3_2, uidRunningPoolSet len : 1 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 14:03:35	
+time="2023-04-07T14:03:35+08:00" level=info msg="loadAdRunningPool sceneStr : 3_1, uidRunningPoolSet len : 1 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 14:03:35	
+time="2023-04-07T14:03:35+08:00" level=info msg="loadAdRunningPool sceneStr : 3_0, uidRunningPoolSet len : 1 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 14:03:35	
+time="2023-04-07T14:03:35+08:00" level=info msg="loadAdRunningPool sceneStr : 1_0, uidRunningPoolSet len : 1 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 14:03:35	
+time="2023-04-07T14:03:35+08:00" level=info msg="loadAdRunningPool sceneStr : 0_2, uidRunningPoolSet len : 6 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 14:03:35	
+time="2023-04-07T14:03:35+08:00" level=info msg="loadAdRunningPool sceneStr : 0_1, uidRunningPoolSet len : 6 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 14:03:35	
+time="2023-04-07T14:03:35+08:00" level=info msg="cron: run [now 2023-04-07 14:03:35.000569866 +0800 CST entry 18 next 2023-04-07 14:04:05 +0800 CST entryName ads_running_pool_updater]" source="package_init.go:68"
+2023-04-07 14:03:35	
+time="2023-04-07T14:03:35+08:00" level=info msg="cron: wake [now 2023-04-07 14:03:35.000569866 +0800 CST]" source="package_init.go:68"
+2023-04-07 14:03:33	
+time="2023-04-07T14:03:33+08:00" level=info msg="cron: entry 17 spec (3/30 * * * * *) name ads_smooth_pacing_ptr success" source="cron.go:41"
+2023-04-07 14:03:33	
+time="2023-04-07T14:03:33+08:00" level=info msg="update ptrMap len : 2887" source="ads_smooth_pacing_ptr.go:42"
+2023-04-07 14:03:33	
+time="2023-04-07T14:03:33+08:00" level=info msg="loadSmoothPacingPtr time consuming : 9" source="ads_smooth_pacing_ptr.go:25"
+2023-04-07 14:03:33	
+time="2023-04-07T14:03:33+08:00" level=info msg="cron: run [now 2023-04-07 14:03:33.000588884 +0800 CST entry 17 next 2023-04-07 14:04:03 +0800 CST entryName ads_smooth_pacing_ptr]" source="package_init.go:68"
+2023-04-07 14:03:33	
+time="2023-04-07T14:03:33+08:00" level=info msg="cron: wake [now 2023-04-07 14:03:33.000588884 +0800 CST]" source="package_init.go:68"
+2023-04-07 14:03:31	
+time="2023-04-07T14:03:31+08:00" level=info msg="cron: entry 24 spec (31 */1 * * * *) name ads_predict_max_show_data_updater success" source="cron.go:41"
+2023-04-07 14:03:31	
+time="2023-04-07T14:03:31+08:00" level=info msg="adPredictShowDataSetMap len is : 0" source="ads_predict_show_data.go:41"
+2023-04-07 14:03:31	
+time="2023-04-07T14:03:31+08:00" level=info msg="cron: run [now 2023-04-07 14:03:31.000715284 +0800 CST entry 24 next 2023-04-07 14:04:31 +0800 CST entryName ads_predict_max_show_data_updater]" source="package_init.go:68"
+2023-04-07 14:03:31	
+time="2023-04-07T14:03:31+08:00" level=info msg="cron: wake [now 2023-04-07 14:03:31.000715284 +0800 CST]" source="package_init.go:68"
+2023-04-07 14:03:11	
+time="2023-04-07T14:03:11+08:00" level=info msg="cron: entry 23 spec (11/30 * * * * *) name ads_realtime_show_count_stat_updater success" source="cron.go:41"
+2023-04-07 14:03:11	
+time="2023-04-07T14:03:11+08:00" level=info msg="load adIdeaRealTimeShowCountMap len : 4, adPlanRealTimeShowCountMap len : 1, adGroupRealTimeShowCountMap len : 1, adUserRealTimeShowCountMap len : 1" source="ads_realtime_show_count_stat.go:56"
+2023-04-07 14:03:11	
+time="2023-04-07T14:03:11+08:00" level=info msg="data stat realtime version : 20230119" source="ads_realtime_show_count_stat.go:27"
+2023-04-07 14:03:11	
+time="2023-04-07T14:03:11+08:00" level=info msg="cron: run [now 2023-04-07 14:03:11.000489187 +0800 CST entry 23 next 2023-04-07 14:03:41 +0800 CST entryName ads_realtime_show_count_stat_updater]" source="package_init.go:68"
+2023-04-07 14:03:11	
+time="2023-04-07T14:03:11+08:00" level=info msg="cron: wake [now 2023-04-07 14:03:11.000489187 +0800 CST]" source="package_init.go:68"
+2023-04-07 14:03:05	
+time="2023-04-07T14:03:05+08:00" level=info msg="cron: entry 18 spec (5/30 * * * * *) name ads_running_pool_updater success" source="cron.go:41"
+2023-04-07 14:03:05	
+time="2023-04-07T14:03:05+08:00" level=info msg="loadAdRunningPool sceneStr : 5_1, uidRunningPoolSet len : 0 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 14:03:05	
+time="2023-04-07T14:03:05+08:00" level=info msg="loadAdRunningPool sceneStr : 5_0, uidRunningPoolSet len : 0 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 14:03:05	
+time="2023-04-07T14:03:05+08:00" level=info msg="loadAdRunningPool sceneStr : 3_2, uidRunningPoolSet len : 1 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 14:03:05	
+time="2023-04-07T14:03:05+08:00" level=info msg="loadAdRunningPool sceneStr : 3_1, uidRunningPoolSet len : 1 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 14:03:05	
+time="2023-04-07T14:03:05+08:00" level=info msg="loadAdRunningPool sceneStr : 3_0, uidRunningPoolSet len : 1 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 14:03:05	
+time="2023-04-07T14:03:05+08:00" level=info msg="loadAdRunningPool sceneStr : 1_0, uidRunningPoolSet len : 1 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 14:03:05	
+time="2023-04-07T14:03:05+08:00" level=info msg="loadAdRunningPool sceneStr : 0_2, uidRunningPoolSet len : 6 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 14:03:05	
+time="2023-04-07T14:03:05+08:00" level=info msg="loadAdRunningPool sceneStr : 0_1, uidRunningPoolSet len : 6 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 14:03:05	
+time="2023-04-07T14:03:05+08:00" level=info msg="cron: run [now 2023-04-07 14:03:05.000781853 +0800 CST entry 18 next 2023-04-07 14:03:35 +0800 CST entryName ads_running_pool_updater]" source="package_init.go:68"
+2023-04-07 14:03:05	
+time="2023-04-07T14:03:05+08:00" level=info msg="cron: wake [now 2023-04-07 14:03:05.000781853 +0800 CST]" source="package_init.go:68"
+2023-04-07 14:03:03	
+time="2023-04-07T14:03:03+08:00" level=info msg="cron: entry 17 spec (3/30 * * * * *) name ads_smooth_pacing_ptr success" source="cron.go:41"
+2023-04-07 14:03:03	
+time="2023-04-07T14:03:03+08:00" level=info msg="update ptrMap len : 2887" source="ads_smooth_pacing_ptr.go:42"
+2023-04-07 14:03:03	
+time="2023-04-07T14:03:03+08:00" level=info msg="loadSmoothPacingPtr time consuming : 9" source="ads_smooth_pacing_ptr.go:25"
+2023-04-07 14:03:03	
+time="2023-04-07T14:03:03+08:00" level=info msg="cron: run [now 2023-04-07 14:03:03.000530945 +0800 CST entry 17 next 2023-04-07 14:03:33 +0800 CST entryName ads_smooth_pacing_ptr]" source="package_init.go:68"
+2023-04-07 14:03:03	
+time="2023-04-07T14:03:03+08:00" level=info msg="cron: wake [now 2023-04-07 14:03:03.000530945 +0800 CST]" source="package_init.go:68"
+2023-04-07 14:03:00	
+time="2023-04-07T14:03:00+08:00" level=info msg="cron: entry 1 spec (0 3/10 * * * *) name ab_config_updater success" source="cron.go:41"
+2023-04-07 14:03:00	
+time="2023-04-07T14:03:00+08:00" level=info msg="cron: entry 14 spec (0 3/5 * * * *) name ads_config_updater success" source="cron.go:41"
+2023-04-07 14:03:00	
+time="2023-04-07T14:03:00+08:00" level=info msg="cron: entry 5 spec (0 3/10 * * * *) name ads_unitid_set_update success" source="cron.go:41"
+2023-04-07 14:03:00	
+time="2023-04-07T14:03:00+08:00" level=info msg="cron: run [now 2023-04-07 14:03:00.000096512 +0800 CST entry 1 next 2023-04-07 14:13:00 +0800 CST entryName ab_config_updater]" source="package_init.go:68"
+2023-04-07 14:03:00	
+time="2023-04-07T14:03:00+08:00" level=info msg="cron: run [now 2023-04-07 14:03:00.000096512 +0800 CST entry 14 next 2023-04-07 14:08:00 +0800 CST entryName ads_config_updater]" source="package_init.go:68"
+2023-04-07 14:03:00	
+time="2023-04-07T14:03:00+08:00" level=info msg="cron: run [now 2023-04-07 14:03:00.000096512 +0800 CST entry 5 next 2023-04-07 14:13:00 +0800 CST entryName ads_unitid_set_update]" source="package_init.go:68"
+2023-04-07 14:03:00	
+time="2023-04-07T14:03:00+08:00" level=info msg="cron: wake [now 2023-04-07 14:03:00.000096512 +0800 CST]" source="package_init.go:68"
+2023-04-07 14:02:43	
+time="2023-04-07T14:02:43+08:00" level=info msg="ads-sdk-sort-rpc nacos register Server successful" source="server.go:60"
+2023-04-07 14:02:43	
+time="2023-04-07T14:02:43+08:00" level=info msg="LocalIP init 10.27.16.130" source="local_ip.go:25"
+2023-04-07 14:02:43	
+time="2023-04-07T14:02:43+08:00" level=info msg="register server to nacos" source="server.go:54"
+2023-04-07 14:02:42	
+2023/04/07 14:02:42.627120 transport.go:109: [Info] HERTZ: HTTP server listening on address=[::]:8080
+2023-04-07 14:02:42	
+2023/04/07 14:02:42.627087 engine.go:389: [Info] HERTZ: Using network library=netpoll
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="2 h.Spin() 前" source="main.go:62"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="thrift server init success" source="server.go:50"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="adsSdkSortRpcServiceProcessor init success" source="server.go:44"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="transportFactory init success" source="server.go:28"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="protocolFactory init success" source="server.go:25"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="ads_sdk_sort_rpc started, rpc port: 10001" source="server.go:21"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="1 register(h) 后" source="main.go:52"
+2023-04-07 14:02:42	
+2023/04/07 14:02:42.619404 engine.go:617: [Debug] HERTZ: Method=POST   absolutePath=/ads/unifyFillV2          --> handlerName=ads_sdk/biz/handler.SdkController (num=2 handlers)
+2023-04-07 14:02:42	
+2023/04/07 14:02:42.619389 engine.go:617: [Debug] HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=ads_sdk/biz/handler.Ping (num=2 handlers)
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="1 h := server.Default 前" source="main.go:49"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="init end" source="global_resource.go:200"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="6 StartSchedule() 后" source="global_resource.go:195"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: added [now 2023-04-07 14:02:42.549726993 +0800 CST entry 26 next 2023-04-08 08:05:00 +0800 CST entryName mms_update]" source="package_init.go:68"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: add entry 26 spec (0 5 8 * * *) name mms_update" source="cron.go:49"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: added [now 2023-04-07 14:02:42.548454389 +0800 CST entry 25 next 2023-04-07 14:03:39 +0800 CST entryName ads_that_day_new_ads_updater]" source="package_init.go:68"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: add entry 25 spec (39 */1 * * * *) name ads_that_day_new_ads_updater" source="cron.go:49"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="ad delivery type : 5, that day new ads len : 0" source="that_day_new_ads.go:34"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="ad delivery type : 3, that day new ads len : 0" source="that_day_new_ads.go:34"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="ad delivery type : 1, that day new ads len : 0" source="that_day_new_ads.go:34"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="ad delivery type : 0, that day new ads len : 0" source="that_day_new_ads.go:34"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: added [now 2023-04-07 14:02:42.543586663 +0800 CST entry 24 next 2023-04-07 14:03:31 +0800 CST entryName ads_predict_max_show_data_updater]" source="package_init.go:68"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: add entry 24 spec (31 */1 * * * *) name ads_predict_max_show_data_updater" source="cron.go:49"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="adPredictShowDataSetMap len is : 0" source="ads_predict_show_data.go:41"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: added [now 2023-04-07 14:02:42.541191809 +0800 CST entry 23 next 2023-04-07 14:03:11 +0800 CST entryName ads_realtime_show_count_stat_updater]" source="package_init.go:68"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: add entry 23 spec (11/30 * * * * *) name ads_realtime_show_count_stat_updater" source="cron.go:49"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="load adIdeaRealTimeShowCountMap len : 4, adPlanRealTimeShowCountMap len : 1, adGroupRealTimeShowCountMap len : 1, adUserRealTimeShowCountMap len : 1" source="ads_realtime_show_count_stat.go:56"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="data stat realtime version : 20230119" source="ads_realtime_show_count_stat.go:27"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: added [now 2023-04-07 14:02:42.535174691 +0800 CST entry 22 next 2023-04-08 09:00:00 +0800 CST entryName listen_head_advertising_company]" source="package_init.go:68"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: add entry 22 spec (0 0 9 * * *) name listen_head_advertising_company" source="cron.go:49"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=error msg="ListenHeadAdvertisingDateNotice :redis: nil" source="listen_head_advertising_company_date_notice.go:30"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: added [now 2023-04-07 14:02:42.533951 +0800 CST entry 21 next 2023-04-07 14:30:00 +0800 CST entryName listen_predict_miscalculation_alert]" source="package_init.go:68"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: add entry 21 spec (0 */30 */1 * * *) name listen_predict_miscalculation_alert" source="cron.go:49"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: added [now 2023-04-07 14:02:42.532767433 +0800 CST entry 20 next 2023-04-07 14:10:00 +0800 CST entryName ads_miscalculation_ad]" source="package_init.go:68"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: add entry 20 spec (0 */10 * * * *) name ads_miscalculation_ad" source="cron.go:49"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: added [now 2023-04-07 14:02:42.531494159 +0800 CST entry 19 next 2023-04-07 14:07:00 +0800 CST entryName ads_version_config_updater]" source="package_init.go:68"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: add entry 19 spec (0 2/5 * * * *) name ads_version_config_updater" source="cron.go:49"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="loadAdVersionConfigresult :20220803003013; traceId: []; " source="ads_version_config.go:41"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: added [now 2023-04-07 14:02:42.530128602 +0800 CST entry 18 next 2023-04-07 14:03:05 +0800 CST entryName ads_running_pool_updater]" source="package_init.go:68"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: add entry 18 spec (5/30 * * * * *) name ads_running_pool_updater" source="cron.go:49"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="loadAdRunningPool sceneStr : 5_1, uidRunningPoolSet len : 0 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="loadAdRunningPool sceneStr : 5_0, uidRunningPoolSet len : 0 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="loadAdRunningPool sceneStr : 3_2, uidRunningPoolSet len : 1 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="loadAdRunningPool sceneStr : 3_1, uidRunningPoolSet len : 1 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="loadAdRunningPool sceneStr : 3_0, uidRunningPoolSet len : 1 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="loadAdRunningPool sceneStr : 1_0, uidRunningPoolSet len : 1 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="loadAdRunningPool sceneStr : 0_2, uidRunningPoolSet len : 6 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="loadAdRunningPool sceneStr : 0_1, uidRunningPoolSet len : 6 newlyBuildSet len :0" source="ad_running_pool_config.go:86"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: added [now 2023-04-07 14:02:42.520582976 +0800 CST entry 17 next 2023-04-07 14:03:03 +0800 CST entryName ads_smooth_pacing_ptr]" source="package_init.go:68"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: add entry 17 spec (3/30 * * * * *) name ads_smooth_pacing_ptr" source="cron.go:49"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="update ptrMap len : 2887" source="ads_smooth_pacing_ptr.go:42"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="loadSmoothPacingPtr time consuming : 7" source="ads_smooth_pacing_ptr.go:25"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: added [now 2023-04-07 14:02:42.512172185 +0800 CST entry 16 next 2023-04-08 04:00:00 +0800 CST entryName UpdateVideoPlanWhite]" source="package_init.go:68"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: add entry 16 spec (* * 4 * * *) name UpdateVideoPlanWhite" source="cron.go:49"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: added [now 2023-04-07 14:02:42.510957621 +0800 CST entry 15 next 2023-04-08 01:00:00 +0800 CST entryName UpdateVideoWhite]" source="package_init.go:68"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: add entry 15 spec (* * 1 * * *) name UpdateVideoWhite" source="cron.go:49"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: added [now 2023-04-07 14:02:42.509706598 +0800 CST entry 14 next 2023-04-07 14:03:00 +0800 CST entryName ads_config_updater]" source="package_init.go:68"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: add entry 14 spec (0 3/5 * * * *) name ads_config_updater" source="cron.go:49"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: added [now 2023-04-07 14:02:42.508471656 +0800 CST entry 13 next 2023-04-07 14:10:00 +0800 CST entryName UpdateAdCommonConfig]" source="package_init.go:68"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: add entry 13 spec (0 0/10 * * * *) name UpdateAdCommonConfig" source="cron.go:49"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: added [now 2023-04-07 14:02:42.506742357 +0800 CST entry 12 next 2023-04-07 14:03:52 +0800 CST entryName ads_no_ad_strategy_updater]" source="package_init.go:68"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: add entry 12 spec (52/60 3/5 * * * *) name ads_no_ad_strategy_updater" source="cron.go:49"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: added [now 2023-04-07 14:02:42.505449817 +0800 CST entry 11 next 2023-04-07 14:10:00 +0800 CST entryName ads_plan_config_updater]" source="package_init.go:68"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: add entry 11 spec (0 */10 * * * *) name ads_plan_config_updater" source="cron.go:49"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: added [now 2023-04-07 14:02:42.36227486 +0800 CST entry 10 next 2023-04-07 14:06:00 +0800 CST entryName ads_item_tag_updater]" source="package_init.go:68"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: add entry 10 spec (0 1/5 * * * *) name ads_item_tag_updater" source="cron.go:49"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="ad tags list size: 872" source="ads_item_tag.go:73"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: added [now 2023-04-07 14:02:42.350319792 +0800 CST entry 9 next 2023-04-08 01:00:00 +0800 CST entryName ads_item_tag_code_updater]" source="package_init.go:68"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: add entry 9 spec (0 0 1 * * *) name ads_item_tag_code_updater" source="cron.go:49"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: added [now 2023-04-07 14:02:42.325138516 +0800 CST entry 8 next 2023-04-08 01:05:00 +0800 CST entryName ads_profile_tag_pid_map_updater]" source="package_init.go:68"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="serviceName:sammo-platform-serv , ins:10.27.18.92:8080 ,err:<nil>" source="ads_item_tag.go:32"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: add entry 8 spec (0 5 1 * * *) name ads_profile_tag_pid_map_updater" source="cron.go:49"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: added [now 2023-04-07 14:02:42.32309532 +0800 CST entry 7 next 2023-04-07 15:00:00 +0800 CST entryName ads_profile_tag_updater]" source="package_init.go:68"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: add entry 7 spec (0 */60 * * * *) name ads_profile_tag_updater" source="cron.go:49"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="adProfileTag2Sql : SELECT tag_code FROM platform_ad.user_profile_tag WHERE tag_name = '不限' AND dr = 0, res size : 5" source="ads_profile_tag.go:27"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: added [now 2023-04-07 14:02:42.320797547 +0800 CST entry 6 next 2023-04-07 14:10:00 +0800 CST entryName ad_item_feature_fid_updater]" source="package_init.go:68"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="adProfileTag2Sql : SELECT tag_code FROM platform_ad.user_profile_tag WHERE tag_name = '不限' AND dr = 0" source="ads_profile_tag.go:22"
+2023-04-07 14:02:42	
+time="2023-04-07T14:02:42+08:00" level=info msg="cron: add entry 6 spec (0 0/10 * * * *) name ad_item_feature_fid_updater" source="cron.go:49"
+2023-04-07 14:02:19	
+time="2023-04-07T14:02:19+08:00" level=info msg="cron: add entry 5 spec (0 3/10 * * * *) name ads_unitid_set_update" source="cron.go:49"
+2023-04-07 14:02:19	
+time="2023-04-07T14:02:19+08:00" level=info msg="cron: added [now 2023-04-07 14:02:19.679919754 +0800 CST entry 5 next 2023-04-07 14:03:00 +0800 CST entryName ]" source="package_init.go:68"
+2023-04-07 14:02:19	
+time="2023-04-07T14:02:19+08:00" level=info msg="cron: added [now 2023-04-07 14:02:19.67984812 +0800 CST entry 4 next 2023-04-07 14:10:00 +0800 CST entryName ads_item_recall_updater]" source="package_init.go:68"
+2023-04-07 14:02:19	
+time="2023-04-07T14:02:19+08:00" level=info msg="cron: add entry 4 spec (0 0/10 * * * *) name ads_item_recall_updater" source="cron.go:49"
+2023-04-07 14:02:19	
+time="2023-04-07T14:02:19+08:00" level=info msg="loadUnitIndex key : 10_5_1, sdkItems len : 1" source="unit_id_index.go:64"
+2023-04-07 14:02:19	
+time="2023-04-07T14:02:19+08:00" level=info msg="loadUnitIndex key : 10_5_0, sdkItems len : 20" source="unit_id_index.go:64"
+2023-04-07 14:02:19	
+time="2023-04-07T14:02:19+08:00" level=info msg="loadUnitIndex key : 10_3_2, sdkItems len : 8" source="unit_id_index.go:64"
+2023-04-07 14:02:19	
+time="2023-04-07T14:02:19+08:00" level=info msg="loadUnitIndex key : 10_3_1, sdkItems len : 12" source="unit_id_index.go:64"
+2023-04-07 14:02:19	
+time="2023-04-07T14:02:19+08:00" level=info msg="loadUnitIndex key : 10_3_0, sdkItems len : 10" source="unit_id_index.go:64"
+2023-04-07 14:02:19	
+time="2023-04-07T14:02:19+08:00" level=info msg="loadUnitIndex key : 10_1_0, sdkItems len : 27" source="unit_id_index.go:64"
+2023-04-07 14:02:19	
+time="2023-04-07T14:02:19+08:00" level=info msg="loadUnitIndex key : 10_0_2, sdkItems len : 223" source="unit_id_index.go:64"
+2023-04-07 14:02:19	
+time="2023-04-07T14:02:19+08:00" level=info msg="loadUnitIndex key : 10_0_1, sdkItems len : 243" source="unit_id_index.go:64"
+2023-04-07 14:02:19	
+time="2023-04-07T14:02:19+08:00" level=info msg="get ad bean list from redis, size: 2881" source="current_distributable_ad.go:41"
+2023-04-07 14:02:19	
+time="2023-04-07T14:02:19+08:00" level=info msg="loadCurrentDistributableAd time consuming : 86" source="current_distributable_ad.go:32"
+2023-04-07 14:02:19	
+time="2023-04-07T14:02:19+08:00" level=info msg="cron: added [now 2023-04-07 14:02:19.377217477 +0800 CST entry 3 next 2023-04-08 08:08:00 +0800 CST entryName action_map_updater]" source="package_init.go:68"
+2023-04-07 14:02:19	
+time="2023-04-07T14:02:19+08:00" level=info msg="cron: add entry 3 spec (0 8 8 * * *) name action_map_updater" source="cron.go:49"
+2023-04-07 14:02:19	
+time="2023-04-07T14:02:19+08:00" level=info msg="action map success; ac length: 382; slot2Name length: 382" source="action_updater.go:18"
+2023-04-07 14:02:19	
+time="2023-04-07T14:02:19+08:00" level=info msg="cron: added [now 2023-04-07 14:02:19.370013867 +0800 CST entry 2 next 2023-04-08 07:08:14 +0800 CST entryName holo_fid_map_updater]" source="package_init.go:68"
+2023-04-07 14:02:19	
+time="2023-04-07T14:02:19+08:00" level=info msg="cron: add entry 2 spec (14 8 7 * * *) name holo_fid_map_updater" source="cron.go:49"
+2023-04-07 14:02:19	
+time="2023-04-07T14:02:19+08:00" level=info msg="default fid map update success 245354 91 20230407085930" source="global_item_fid_cache.go:82"
+2023-04-07 14:02:19	
+time="2023-04-07T14:02:19+08:00" level=info msg="holo_fid_map use zipMap for 18044(smallFidMap)/245354(originFidMap)" source="fid_map.go:147"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="cron: added [now 2023-04-07 14:02:01.472675131 +0800 CST entry 1 next 2023-04-07 14:03:00 +0800 CST entryName ab_config_updater]" source="package_init.go:68"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="cron: add entry 1 spec (0 3/10 * * * *) name ab_config_updater" source="cron.go:49"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="6 StartSchedule() 前" source="global_resource.go:193"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="raw :{\n  \"primaryKeyId\": 1266189382,\n  \"key\": [\n    {\n      \"keyData\": {\n        \"typeUrl\": \"type.googleapis.com\\/google.crypto.tink.EcdsaPrivateKey\",\n        \"keyMaterialType\": \"ASYMMETRIC_PRIVATE\",\n        \"value\": \"EkwSBggDEAIYAhogcqgMv07onH+diWug1G71gC0arLu23niR+a4rxcsmfesiIEzvvJvHgcBUH0Nz+LMT+Jk5SUEkdZ7+hXOR+ind9zRSGiEAhkNvC7Zydhy77p5pBQ4CZe80TaIKIQ4dnXWLv4ScKLc=\"\n      },\n      \"outputPrefixType\": \"TINK\",\n      \"keyId\": 1266189382,\n      \"status\": \"ENABLED\"\n    }\n  ]\n}\n" source="global_resource.go:189"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="raw :{\n  \"primaryKeyId\": 276340728,\n  \"key\": [\n    {\n      \"keyData\": {\n        \"typeUrl\": \"type.googleapis.com\\/google.crypto.tink.AesGcmKey\",\n        \"keyMaterialType\": \"SYMMETRIC\",\n        \"value\": \"GhAz5zFXh6EZTYDIYBY8oGZV\"\n      },\n      \"outputPrefixType\": \"TINK\",\n      \"keyId\": 276340728,\n      \"status\": \"ENABLED\"\n    }\n  ]\n}\n" source="global_resource.go:181"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="conn_pools: node set sync go-serving [10.33.170.77:8711 10.29.169.74:8711 10.29.169.14:8711 10.29.169.22:8711 10.29.169.43:8711 10.29.169.45:8711 10.29.169.8:8711 10.29.169.96:8711 10.29.169.7:8711 10.29.169.91:8711 10.29.169.81:8711]" source="node_set.go:139"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="conn_pools: node added go-serving 10.29.169.22:8711" source="node_set.go:66"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="conn_pools: node added go-serving 10.33.170.77:8711" source="node_set.go:66"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="conn_pools: node added go-serving 10.29.169.81:8711" source="node_set.go:66"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="conn_pools: node added go-serving 10.29.169.96:8711" source="node_set.go:66"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="conn_pools: node added go-serving 10.29.169.45:8711" source="node_set.go:66"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="conn_pools: node added go-serving 10.29.169.14:8711" source="node_set.go:66"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="conn_pools: node added go-serving 10.29.169.74:8711" source="node_set.go:66"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="conn_pools: node added go-serving 10.29.169.91:8711" source="node_set.go:66"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="conn_pools: node added go-serving 10.29.169.7:8711" source="node_set.go:66"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="conn_pools: node added go-serving 10.29.169.8:8711" source="node_set.go:66"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="conn_pools: node added go-serving 10.29.169.43:8711" source="node_set.go:66"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="conn_pools: node set sync sammo-rta-serv [10.27.18.122:9090]" source="node_set.go:139"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="conn_pools: node added sammo-rta-serv 10.27.18.122:9090" source="node_set.go:66"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="conn_pools: re-submitting `0` credentials after reconnect" source="node_set.go:146"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="conn_pools: authenticated: id=144488373486552705, timeout=90000" source="node_set.go:146"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="conn_pools: re-submitting `0` credentials after reconnect" source="node_set.go:146"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="conn_pools: authenticated: id=216313878310727732, timeout=40000" source="node_set.go:146"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="zk2: re-submitting `0` credentials after reconnect" source="zk2.go:73"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="zk2: authenticated: id=216313878310727731, timeout=10000" source="zk2.go:73"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="conn_pools: Connected to 10.0.14.243:2181" source="node_set.go:146"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="conn_pools: Connected to 10.0.14.242:2181" source="node_set.go:146"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="zk2: Connected to 10.0.14.243:2181" source="zk2.go:73"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="rdsClient ping success; host: [r-2ze67d1655287304.redis.rds.aliyuncs.com:6379];" source="redis_client.go:27"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="rdsClient ping success; host: [r-2zeu8ajf31xvtwydzk.redis.rds.aliyuncs.com:6379];" source="redis_client.go:27"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="rdsClient ping success; host: [r-2ze67d1655287304.redis.rds.aliyuncs.com:6379];" source="redis_client.go:27"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="rdsClient ping success; host: [r-2ze67d1655287304.redis.rds.aliyuncs.com:6379];" source="redis_client.go:27"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="rdsClient ping success; host: [r-2ze67d1655287304.redis.rds.aliyuncs.com:6379];" source="redis_client.go:27"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="rdsClient ping success; host: [r-2ze67d1655287304.redis.rds.aliyuncs.com:6379];" source="redis_client.go:27"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="rdsClient ping success; host: [r-2ze67d1655287304.redis.rds.aliyuncs.com:6379];" source="redis_client.go:27"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="rdsClient ping success; host: [r-2ze67d1655287304.redis.rds.aliyuncs.com:6379];" source="redis_client.go:27"
+2023-04-07 14:02:01	
+time="2023-04-07T14:02:01+08:00" level=info msg="cron: start []" source="package_init.go:68"

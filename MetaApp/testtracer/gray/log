@@ -1,0 +1,64 @@
+2023-03-20 15:42:42	
+time="2023-03-20T15:42:42+08:00" level=info msg="zhangzhao TracerInfo k v budget_control_step 10" req_id=d1c259f92feb43e1b0b7258cd494c99e_1679298162047 source="pipeline_tracer.go:44"
+2023-03-20 15:42:42	
+time="2023-03-20T15:42:42+08:00" level=info msg="zhangzhao TracerInfo k v new_ad_filter 13891" req_id=d1c259f92feb43e1b0b7258cd494c99e_1679298162047 source="pipeline_tracer.go:44"
+2023-03-20 15:42:42	
+time="2023-03-20T15:42:42+08:00" level=info msg="zhangzhao TracerInfo k v filter_crowd_pack_target 4984" req_id=d1c259f92feb43e1b0b7258cd494c99e_1679298162047 source="pipeline_tracer.go:44"
+2023-03-20 15:42:42	
+time="2023-03-20T15:42:42+08:00" level=info msg="zhangzhao TracerInfo k v filter_frequency 13891" req_id=d1c259f92feb43e1b0b7258cd494c99e_1679298162047 source="pipeline_tracer.go:44"
+2023-03-20 15:42:42	
+time="2023-03-20T15:42:42+08:00" level=info msg="zhangzhao TracerInfo k v filter_consumption 13891" req_id=d1c259f92feb43e1b0b7258cd494c99e_1679298162047 source="pipeline_tracer.go:44"
+2023-03-20 15:42:42	
+time="2023-03-20T15:42:42+08:00" level=info msg="zhangzhao TracerInfo k v ad_item_recall 16650" req_id=d1c259f92feb43e1b0b7258cd494c99e_1679298162047 source="pipeline_tracer.go:44"
+2023-03-20 15:42:42	
+time="2023-03-20T15:42:42+08:00" level=info msg="zhangzhao TracerInfo k v filter_valuation 123" req_id=d1c259f92feb43e1b0b7258cd494c99e_1679298162047 source="pipeline_tracer.go:44"
+2023-03-20 15:42:42	
+time="2023-03-20T15:42:42+08:00" level=info msg="zhangzhao TracerInfo k v pre_ranking_step 4983" req_id=d1c259f92feb43e1b0b7258cd494c99e_1679298162047 source="pipeline_tracer.go:44"
+2023-03-20 15:42:42	
+time="2023-03-20T15:42:42+08:00" level=info msg="zhangzhao TracerInfo k v ecpm_low_filter 4983" req_id=d1c259f92feb43e1b0b7258cd494c99e_1679298162047 source="pipeline_tracer.go:44"
+2023-03-20 15:42:42	
+time="2023-03-20T15:42:42+08:00" level=info msg="zhangzhao TracerInfo k v filter_crowd_target 4986" req_id=d1c259f92feb43e1b0b7258cd494c99e_1679298162047 source="pipeline_tracer.go:44"
+2023-03-20 15:42:42	
+time="2023-03-20T15:42:42+08:00" level=info msg="zhangzhao TracerInfo k v cpm_stats_cut_off_filter 5000" req_id=d1c259f92feb43e1b0b7258cd494c99e_1679298162047 source="pipeline_tracer.go:44"
+2023-03-20 15:42:42	
+time="2023-03-20T15:42:42+08:00" level=info msg="zhangzhao TracerInfo k v filter_duplicate_package 19" req_id=d1c259f92feb43e1b0b7258cd494c99e_1679298162047 source="pipeline_tracer.go:44"
+2023-03-20 15:42:42	
+time="2023-03-20T15:42:42+08:00" level=info msg="zhangzhao TracerInfo k v export_num_filter 10" req_id=d1c259f92feb43e1b0b7258cd494c99e_1679298162047 source="pipeline_tracer.go:44"
+2023-03-20 15:42:42	
+time="2023-03-20T15:42:42+08:00" level=info msg="zhangzhao TracerInfo k v post_ranking_step 123" req_id=d1c259f92feb43e1b0b7258cd494c99e_1679298162047 source="pipeline_tracer.go:44"
+2023-03-20 15:42:42	
+time="2023-03-20T15:42:42+08:00" level=info msg="zhangzhao TracerInfo k v filter_region_target 4983" req_id=d1c259f92feb43e1b0b7258cd494c99e_1679298162047 source="pipeline_tracer.go:44"
+2023-03-20 15:42:42	
+time="2023-03-20T15:42:42+08:00" level=info msg="zhangzhao TracerInfo k v filter_installed_app_list 16358" req_id=d1c259f92feb43e1b0b7258cd494c99e_1679298162047 source="pipeline_tracer.go:44"
+2023-03-20 15:40:29	
+time="2023-03-20T15:40:29+08:00" level=info msg="zhangzhao TracerInfo k v filter_crowd_pack_target 4984" req_id=7dd4a2229a1f4a21a44b29ea05d68c38_1679298029314 source="pipeline_tracer.go:44"
+2023-03-20 15:40:29	
+time="2023-03-20T15:40:29+08:00" level=info msg="zhangzhao TracerInfo k v filter_crowd_target 4986" req_id=7dd4a2229a1f4a21a44b29ea05d68c38_1679298029314 source="pipeline_tracer.go:44"
+2023-03-20 15:40:29	
+time="2023-03-20T15:40:29+08:00" level=info msg="zhangzhao TracerInfo k v cpm_stats_cut_off_filter 5000" req_id=7dd4a2229a1f4a21a44b29ea05d68c38_1679298029314 source="pipeline_tracer.go:44"
+2023-03-20 15:40:29	
+time="2023-03-20T15:40:29+08:00" level=info msg="zhangzhao TracerInfo k v filter_installed_app_list 16365" req_id=7dd4a2229a1f4a21a44b29ea05d68c38_1679298029314 source="pipeline_tracer.go:44"
+2023-03-20 15:40:29	
+time="2023-03-20T15:40:29+08:00" level=info msg="zhangzhao TracerInfo k v budget_control_step 4" req_id=7dd4a2229a1f4a21a44b29ea05d68c38_1679298029314 source="pipeline_tracer.go:44"
+2023-03-20 15:40:29	
+time="2023-03-20T15:40:29+08:00" level=info msg="zhangzhao TracerInfo k v export_num_filter 4" req_id=7dd4a2229a1f4a21a44b29ea05d68c38_1679298029314 source="pipeline_tracer.go:44"
+2023-03-20 15:40:29	
+time="2023-03-20T15:40:29+08:00" level=info msg="zhangzhao TracerInfo k v filter_valuation 48" req_id=7dd4a2229a1f4a21a44b29ea05d68c38_1679298029314 source="pipeline_tracer.go:44"
+2023-03-20 15:40:29	
+time="2023-03-20T15:40:29+08:00" level=info msg="zhangzhao TracerInfo k v pre_ranking_step 4977" req_id=7dd4a2229a1f4a21a44b29ea05d68c38_1679298029314 source="pipeline_tracer.go:44"
+2023-03-20 15:40:29	
+time="2023-03-20T15:40:29+08:00" level=info msg="zhangzhao TracerInfo k v ecpm_low_filter 4977" req_id=7dd4a2229a1f4a21a44b29ea05d68c38_1679298029314 source="pipeline_tracer.go:44"
+2023-03-20 15:40:29	
+time="2023-03-20T15:40:29+08:00" level=info msg="zhangzhao TracerInfo k v filter_consumption 13863" req_id=7dd4a2229a1f4a21a44b29ea05d68c38_1679298029314 source="pipeline_tracer.go:44"
+2023-03-20 15:40:29	
+time="2023-03-20T15:40:29+08:00" level=info msg="zhangzhao TracerInfo k v ad_item_recall 16650" req_id=7dd4a2229a1f4a21a44b29ea05d68c38_1679298029314 source="pipeline_tracer.go:44"
+2023-03-20 15:40:29	
+time="2023-03-20T15:40:29+08:00" level=info msg="zhangzhao TracerInfo k v post_ranking_step 48" req_id=7dd4a2229a1f4a21a44b29ea05d68c38_1679298029314 source="pipeline_tracer.go:44"
+2023-03-20 15:40:29	
+time="2023-03-20T15:40:29+08:00" level=info msg="zhangzhao TracerInfo k v new_ad_filter 13858" req_id=7dd4a2229a1f4a21a44b29ea05d68c38_1679298029314 source="pipeline_tracer.go:44"
+2023-03-20 15:40:29	
+time="2023-03-20T15:40:29+08:00" level=info msg="zhangzhao TracerInfo k v filter_frequency 13858" req_id=7dd4a2229a1f4a21a44b29ea05d68c38_1679298029314 source="pipeline_tracer.go:44"
+2023-03-20 15:40:29	
+time="2023-03-20T15:40:29+08:00" level=info msg="zhangzhao TracerInfo k v filter_duplicate_package 4" req_id=7dd4a2229a1f4a21a44b29ea05d68c38_1679298029314 source="pipeline_tracer.go:44"
+2023-03-20 15:40:29	
+time="2023-03-20T15:40:29+08:00" level=info msg="zhangzhao TracerInfo k v filter_region_target 4977" req_id=7dd4a2229a1f4a21a44b29ea05d68c38_1679298029314 source="pipeline_tracer.go:44"

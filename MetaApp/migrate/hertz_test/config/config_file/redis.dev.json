@@ -1,0 +1,82 @@
+{
+  "RedisN0": {
+    "addr": "121.37.98.68:6379",
+    "password": "3jJEIoWm3jJEIoWmYPw3tT7Ndtmy8pCOmZhBTSKRCTvswzrvUAg",
+    "poolSize": 5,
+    "dialTimeout": 1000,
+    "readTimeout": 5000,
+    "writeTimeout": 500,
+    "minIdleConns": 2,
+    "db": 0
+  },
+  "RedisGroupCommonInstance": {
+    "addr": "172.16.32.35:6379",
+    "password": "Sl6Aw6iGP3cfFj",
+    "poolSize": 1000,
+    "dialTimeout": 50,
+    "readTimeout": 1000,
+    "writeTimeout": 100,
+    "minIdleConns": 10,
+    "db": 8
+  },
+  "RedisGroupModelInstance1": {
+    "addr": "172.16.32.35:6379",
+    "password": "Sl6Aw6iGP3cfFj",
+    "poolSize": 1000,
+    "dialTimeout": 50,
+    "readTimeout": 1000,
+    "writeTimeout": 100,
+    "minIdleConns": 10,
+    "db": 8
+  },
+  "RedisGroupModelInstance2": {
+    "addr": "172.16.32.35:6379",
+    "password": "Sl6Aw6iGP3cfFj",
+    "poolSize": 1000,
+    "dialTimeout": 50,
+    "readTimeout": 1000,
+    "writeTimeout": 100,
+    "minIdleConns": 10,
+    "db": 8
+  },
+  "RedisGroupUserInstance1": {
+    "addr": "172.16.32.35:6379",
+    "password": "Sl6Aw6iGP3cfFj",
+    "poolSize": 1000,
+    "dialTimeout": 50,
+    "readTimeout": 1000,
+    "writeTimeout": 100,
+    "minIdleConns": 10,
+    "db": 8
+  },
+  "RedisGroupUserInstance2":{
+    "addr": "172.16.32.35:6379",
+    "password": "Sl6Aw6iGP3cfFj",
+    "poolSize": 1000,
+    "dialTimeout": 50,
+    "readTimeout": 1000,
+    "writeTimeout": 100,
+    "minIdleConns": 10,
+    "db": 8
+  },
+  "RedisSspInstance": {
+    "addr": "172.16.32.35:6379",
+    "password": "Sl6Aw6iGP3cfFj",
+    "poolSize": 1000,
+    "dialTimeout": 50,
+    "readTimeout": 1000,
+    "writeTimeout": 100,
+    "minIdleConns": 10,
+    "db": 8
+  },
+  "RedissonInstance": {
+    "addr": "172.16.32.35:6379",
+    "password": "Sl6Aw6iGP3cfFj",
+    "poolSize": 1000,
+    "dialTimeout": 50,
+    "readTimeout": 1000,
+    "writeTimeout": 100,
+    "minIdleConns": 10,
+    "db": 7
+  }
+}

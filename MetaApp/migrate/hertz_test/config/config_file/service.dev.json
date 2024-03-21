@@ -1,0 +1,15 @@
+{
+  "service_conf": {
+    "http_service_name": "ads-sdk-sort",
+    "rpc_service_name": "ads-sdk-sort-rpc",
+    "service_protection_qps": 10000
+  },
+  "listen_conf": {
+    "http_addr": "0.0.0.0",
+    "http_port": 8080,
+    "rpc_port": 10001,
+    "enable_admin": false,
+    "admin_addr": "0.0.0.0",
+    "admin_port": 8088
+  }
+}

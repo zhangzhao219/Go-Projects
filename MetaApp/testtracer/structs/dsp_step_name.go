@@ -1,0 +1,27 @@
+package structs
+
+const (
+	HomeIconPreProcessor        = "home_icon_pre_processor"
+	DetailsPagePreProcessor     = "details_page_pre_processor"
+	AdRecallStep                = "ad_item_recall"
+	AdFilterStep1               = "ad_filter1_step"
+	AdFilterStep2               = "ad_filter2_step"
+	PreRankingStep              = "pre_ranking_step"
+	PostRankingStep             = "post_ranking_step"
+	ItemFidDispatcher           = "fill_item_fid_dispatcher_step"
+	ClassifyItemStep            = "classify_item_step"
+	BudgetControlStep           = "budget_control_step"
+	DspRecall                   = "dsp_recall"
+	ItemGameFidStep             = "item_game_fid_step"
+	RtaStep                     = "rta_step"
+	OcpxStep                    = "ocpx_step"
+	RetentionItemClassifyStep   = "retention_item_classify_step"
+	ActivateForceInsertStep     = "activate_force_insert_step"
+	PredictDispatcherStep       = "predict_dispatcher_step"
+	ModelUnionDispatcherStep    = "model_union_dispatcher_step"
+	LandingPageStep             = "landing_page_step"
+	LandingPageForceInsertStep  = "landing_page_force_insert_step"
+	ForceInsertStep             = "force_insert_step"
+	ForceInsertClassifyItemStep = "force_insert_classify_item_step"
+	ShowBudgetControlStep       = "show_budget_control_step"
+)
